@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod.GsmConglomerate
+﻿namespace FactoryMethod.Products
 {
     using System;
 

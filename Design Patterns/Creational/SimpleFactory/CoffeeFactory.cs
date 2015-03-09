@@ -8,6 +8,7 @@
         // Also the method can be static but we won't be able to extend the class
         public Coffee GetCoffee(CoffeeType coffeeType)
         {
+            // Can also be implemented using dictionary
             switch (coffeeType)
             {
                 case CoffeeType.Regular:

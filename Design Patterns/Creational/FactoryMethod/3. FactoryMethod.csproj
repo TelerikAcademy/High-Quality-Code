@@ -41,25 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factory method example - GSM Conglomerate\EyePhone.cs" />
-    <Compile Include="Factory method example - GSM Conglomerate\Gsm.cs" />
-    <Compile Include="Factory method example - GSM Conglomerate\IStartable.cs" />
-    <Compile Include="Factory method example - GSM Conglomerate\Manufacturer.cs" />
-    <Compile Include="Factory method example - GSM Conglomerate\PearComputers.cs" />
-    <Compile Include="Factory method example - GSM Conglomerate\Program.cs" />
-    <Compile Include="Factory method example - GSM Conglomerate\SamunComputers.cs" />
-    <Compile Include="Factory method example - GSM Conglomerate\SamunGalaxy.cs" />
-    <Compile Include="Implementation\Chair.cs" />
-    <Compile Include="Implementation\FactoryMethod.cs" />
-    <Compile Include="Implementation\Product.cs" />
+    <Compile Include="Products\EyePhone.cs" />
+    <Compile Include="Products\Gsm.cs" />
+    <Compile Include="Manufacturers\Manufacturer.cs" />
+    <Compile Include="Manufacturers\PearComputers.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Manufacturers\SamunComputers.cs" />
+    <Compile Include="Products\SamunGalaxy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Implementation\ChairCreator.cs" />
-    <Compile Include="Implementation\Table.cs" />
-    <Compile Include="Implementation\TableCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Implementation\FactoryMethodDiagram.cd" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

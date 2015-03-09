@@ -1,5 +1,7 @@
-﻿namespace FactoryMethod.GsmConglomerate
+﻿namespace FactoryMethod.Manufacturers
 {
+    using FactoryMethod.Products;
+
     public class PearComputers : Manufacturer
     {
         public override Gsm ManufactureGsm()
