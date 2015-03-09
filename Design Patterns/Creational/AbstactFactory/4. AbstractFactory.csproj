@@ -47,19 +47,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract factory example - pizza place\AbstractPizzaFactory.cs" />
-    <Compile Include="Abstract factory example - pizza place\AlfreddosPlace.cs" />
-    <Compile Include="Abstract factory example - pizza place\Calzone.cs" />
-    <Compile Include="Abstract factory example - pizza place\CheesePizza.cs" />
-    <Compile Include="Abstract factory example - pizza place\OnlineDeliveryCompany.cs" />
-    <Compile Include="Abstract factory example - pizza place\PepperoniPizza.cs" />
-    <Compile Include="Abstract factory example - pizza place\Pizza.cs" />
-    <Compile Include="Abstract factory example - pizza place\PizzaExtraordinaire.cs" />
-    <Compile Include="Abstract factory example - pizza place\Program.cs" />
+    <Compile Include="AbstractPizzaFactory.cs" />
+    <Compile Include="AlfreddosPlace.cs" />
+    <Compile Include="Calzone.cs" />
+    <Compile Include="CheesePizza.cs" />
+    <Compile Include="OnlineDeliveryCompany.cs" />
+    <Compile Include="PepperoniPizza.cs" />
+    <Compile Include="Pizza.cs" />
+    <Compile Include="PizzaExtraordinaire.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Abstract factory example - pizza place\Abstract factory diagram.cd" />
+    <None Include="Abstract factory diagram.cd" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
