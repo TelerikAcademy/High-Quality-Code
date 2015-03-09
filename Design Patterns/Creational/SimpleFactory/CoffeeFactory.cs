@@ -1,14 +1,17 @@
-﻿namespace SimpleFactory.CoffeeShop
+﻿namespace SimpleFactory
 {
     using System;
 
-    public static class CoffeeFactory
+    public class CoffeeFactory
     {
-        public static Coffee GetCoffee(CoffeeType coffeeType)
+        // Parameter can be string (e.g. from configuration file)
+        // Also the method can be static but we won't be able to extend the class
+        public Coffee GetCoffee(CoffeeType coffeeType)
         {
             switch (coffeeType)
             {
                 case CoffeeType.Regular:
+                    // Can be subtype of Coffee
                     return new Coffee(0, 150);
                 case CoffeeType.Double:
                     return new Coffee(0, 200);

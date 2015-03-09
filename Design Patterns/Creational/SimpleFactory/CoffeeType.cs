@@ -1,4 +1,4 @@
-﻿namespace SimpleFactory.CoffeeShop
+﻿namespace SimpleFactory
 {
     public enum CoffeeType
     {

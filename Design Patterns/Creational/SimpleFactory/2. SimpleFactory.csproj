@@ -41,19 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implementation\Developer.cs" />
-    <Compile Include="Implementation\Employee.cs" />
-    <Compile Include="Implementation\Manager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Simple factory example - coffee shop\Coffee.cs" />
-    <Compile Include="Simple factory example - coffee shop\CoffeeFactory.cs" />
-    <Compile Include="Simple factory example - coffee shop\CoffeeType.cs" />
-    <Compile Include="Simple factory example - coffee shop\Program.cs" />
-    <Compile Include="Implementation\SimpleFactory.cs" />
+    <Compile Include="Coffee.cs" />
+    <Compile Include="CoffeeFactory.cs" />
+    <Compile Include="CoffeeType.cs" />
+    <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Implementation\SimpleFactoryDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
