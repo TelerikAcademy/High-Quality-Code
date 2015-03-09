@@ -2,7 +2,7 @@
 {
     public abstract class Product
     {
-        public Product(string description)
+        protected Product(string description)
         {
             this.Description = description;
         }

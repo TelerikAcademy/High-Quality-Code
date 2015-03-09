@@ -1,8 +1,5 @@
 ﻿namespace Prototype
 {
-    using System;
-    using System.Collections.Generic;
-
     public class Stormtrooper : StormtrooperPrototype
     {
         public Stormtrooper(string type, int height, int weight)

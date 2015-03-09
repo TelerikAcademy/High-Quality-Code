@@ -1,7 +1,5 @@
 ﻿namespace Builder
 {
-    using System;
-
     internal class Program
     {
         internal static void Main()

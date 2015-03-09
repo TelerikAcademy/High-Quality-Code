@@ -2,7 +2,7 @@
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             var log = Logger.Instance;
             log.SaveToLog("We have started with the introduction to design patters.");

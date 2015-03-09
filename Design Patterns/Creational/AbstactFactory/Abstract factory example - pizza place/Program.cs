@@ -12,10 +12,10 @@
             var cheesePizza = yamYam.DeliverCheesePizza();
 
             Console.WriteLine(cheesePizza.Name);
-            Console.WriteLine("Ingridients: ");
-            foreach (var ingridient in cheesePizza.Ingridients)
+            Console.WriteLine("Ingredients: ");
+            foreach (var ingredient in cheesePizza.Ingredients)
             {
-                Console.WriteLine(ingridient);
+                Console.WriteLine(ingredient);
             }
         }
     }

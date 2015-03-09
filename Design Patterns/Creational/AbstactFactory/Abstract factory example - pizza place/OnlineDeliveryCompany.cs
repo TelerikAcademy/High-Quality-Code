@@ -1,33 +1,27 @@
 ﻿namespace AbstractFactory.PizzaPlaces
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
     public class OnlineDeliveryCompany
     {
-        private PizzaFactory factory;
+        private readonly PizzaFactory factory;
 
         public OnlineDeliveryCompany(PizzaFactory pizzaFactory)
         {
-            factory = pizzaFactory;
+            this.factory = pizzaFactory;
         }
 
         public CheesePizza DeliverCheesePizza()
         {
-            return factory.MakeCheesePizza();
+            return this.factory.MakeCheesePizza();
         }
 
         public Calzone DeliverCalzone()
         {
-            return factory.MakeCalzone();
+            return this.factory.MakeCalzone();
         }
 
         public PepperoniPizza DeliverPepperoniPizza()
         {
-            return factory.MakePepperoniPizza();
+            return this.factory.MakePepperoniPizza();
         }
     }
 }

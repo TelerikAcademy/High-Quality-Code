@@ -16,32 +16,22 @@
 
         public override CheesePizza MakeCheesePizza()
         {
-            var ingridients = new List<string>();
-            ingridients.Add("rotten tomatoes");
-            ingridients.Add("grey cheese");
-            ingridients.Add("green cheese");
-
-            var pizza = new CheesePizza(ingridients, this.Name);
+            var ingredients = new List<string> { "rotten tomatoes", "grey cheese", "green cheese" };
+            var pizza = new CheesePizza(ingredients, this.Name);
             return pizza;
         }
 
         public override Calzone MakeCalzone()
         {
-            var ingridients = new List<string>();
-            ingridients.Add("rotten tomatoes");
-            ingridients.Add("greasy ham");
-
-            var pizza = new Calzone(ingridients, this.Name);
+            var ingredients = new List<string> { "rotten tomatoes", "greasy ham" };
+            var pizza = new Calzone(ingredients, this.Name);
             return pizza;
         }
 
         public override PepperoniPizza MakePepperoniPizza()
         {
-            var ingridients = new List<string>();
-            ingridients.Add("old salami");
-            ingridients.Add("green tomatoes");
-
-            var pizza = new PepperoniPizza(ingridients, this.Name);
+            var ingredients = new List<string> { "old salami", "green tomatoes" };
+            var pizza = new PepperoniPizza(ingredients, this.Name);
             return pizza;
         }
     }

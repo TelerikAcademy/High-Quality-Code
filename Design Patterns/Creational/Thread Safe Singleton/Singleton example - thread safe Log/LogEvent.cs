@@ -4,9 +4,9 @@
 
     public class LogEvent
     {
-        private string message;
+        private readonly string message;
 
-        private DateTime eventDate;
+        private readonly DateTime eventDate;
 
         public LogEvent(string message)
         {

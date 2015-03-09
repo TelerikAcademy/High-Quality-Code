@@ -6,8 +6,8 @@
     {
         private string madeBy;
 
-        public Calzone(IEnumerable<string> ingridients, string madeBy)
-            : base(ingridients)
+        public Calzone(IEnumerable<string> ingredients, string madeBy)
+            : base(ingredients)
         {
             this.madeBy = madeBy;
         }

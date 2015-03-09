@@ -1,11 +1,5 @@
 ﻿namespace SimpleFactory
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
     public static class SimpleFactory
     {
         public static Employee GetEmployee(int workerNumber)

@@ -24,7 +24,8 @@
 
         public void Show()
         {
-            Console.WriteLine("\n---------------------------");
+            Console.WriteLine();
+            Console.WriteLine("---------------------------");
             Console.WriteLine("Vehicle Type: {0}", this.vehicleType);
             Console.WriteLine(" Frame  : {0}", this.parts["frame"]);
             Console.WriteLine(" Engine : {0}", this.parts["engine"]);

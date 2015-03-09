@@ -6,7 +6,9 @@
 
         private static object syncLock = new object();
 
-        private SingletonThreadSafe() { }
+        private SingletonThreadSafe()
+        {
+        }
 
         public static SingletonThreadSafe Instance
         {

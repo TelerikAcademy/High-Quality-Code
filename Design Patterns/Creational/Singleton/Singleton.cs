@@ -2,9 +2,11 @@
 {
     public sealed class Singleton
     {
-        private Singleton() { }
-
         private static readonly Singleton instance = new Singleton();
+
+        private Singleton()
+        {
+        }
 
         public static Singleton Instance
         {

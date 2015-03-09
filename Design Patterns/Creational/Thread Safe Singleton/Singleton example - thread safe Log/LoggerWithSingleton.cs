@@ -9,6 +9,13 @@
 
         private static object syncLock = new object();
 
+        private readonly List<LogEvent> events;
+
+        private ThreadSafeLogger()
+        {
+            this.events = new List<LogEvent>();
+        }
+
         public static ThreadSafeLogger Instance
         {
             get
@@ -28,21 +35,14 @@
             }
         }
 
-        private List<LogEvent> Events;
-
-        private ThreadSafeLogger()
-        {
-            this.Events = new List<LogEvent>();
-        }
-
         public void SaveToLog(object message)
         {
-            this.Events.Add(new LogEvent(message.ToString()));
+            this.events.Add(new LogEvent(message.ToString()));
         }
 
         public void PrintLog()
         {
-            foreach (var ev in this.Events)
+            foreach (var ev in this.events)
             {
                 Console.WriteLine("Time: {0}, Event: {1}", ev.EventDate.ToShortTimeString(), ev.Message);
             }

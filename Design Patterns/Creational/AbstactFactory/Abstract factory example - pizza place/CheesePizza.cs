@@ -6,8 +6,8 @@
     {
         private readonly string madeBy;
 
-        public CheesePizza(IEnumerable<string> ingridients, string madeBy)
-            : base(ingridients)
+        public CheesePizza(IEnumerable<string> ingredients, string madeBy)
+            : base(ingredients)
         {
             this.madeBy = madeBy;
         }

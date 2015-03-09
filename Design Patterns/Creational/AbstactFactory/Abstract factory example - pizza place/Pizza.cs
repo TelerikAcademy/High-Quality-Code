@@ -4,18 +4,18 @@
 
     public abstract class Pizza
     {
-        private IReadOnlyCollection<string> ingridients;
+        private readonly IReadOnlyCollection<string> ingredients;
 
-        public Pizza(IEnumerable<string> ingridients)
+        protected Pizza(IEnumerable<string> ingredients)
         {
-            this.ingridients = new List<string>(ingridients);
+            this.ingredients = new List<string>(ingredients);
         }
 
-        public IEnumerable<string> Ingridients
+        public IEnumerable<string> Ingredients
         {
             get
             {
-                return this.ingridients;
+                return this.ingredients;
             }
         }
 

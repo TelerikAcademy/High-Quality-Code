@@ -4,10 +4,10 @@
 
     public class PepperoniPizza : Pizza
     {
-        private string madeBy;
+        private readonly string madeBy;
 
-        public PepperoniPizza(IEnumerable<string> ingridients, string madeBy)
-            : base(ingridients)
+        public PepperoniPizza(IEnumerable<string> ingredients, string madeBy)
+            : base(ingredients)
         {
             this.madeBy = madeBy;
         }
