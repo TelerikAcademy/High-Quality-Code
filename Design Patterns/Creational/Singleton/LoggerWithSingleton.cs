@@ -1,24 +1,23 @@
-﻿namespace Singleton.Logger
+﻿namespace Singleton
 {
     using System;
     using System.Collections.Generic;
 
     public sealed class Logger
     {
-        private static readonly Logger logger = new Logger();
+        private static readonly Logger LoggerInstance = new Logger();
 
-        private readonly List<LogEvent> events;
+        private readonly List<LogEvent> events = new List<LogEvent>();
 
         private Logger()
         {
-            this.events = new List<LogEvent>();
         }
 
         public static Logger Instance
         {
             get
             {
-                return logger;
+                return LoggerInstance;
             }
         }
 

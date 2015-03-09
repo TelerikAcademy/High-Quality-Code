@@ -1,4 +1,4 @@
-﻿namespace Singleton.Logger
+﻿namespace Singleton
 {
     public class Program
     {
