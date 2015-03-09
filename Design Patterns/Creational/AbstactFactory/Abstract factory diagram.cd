@@ -1,59 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="AbstractFactory.PizzaPlaces.PizzaFactory">
+  <Class Name="AbstractFactory.Factories.PizzaFactory">
     <Position X="6.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>AbstractPizzaFactory.cs</FileName>
+      <FileName>Factories\AbstractPizzaFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AbstractFactory.PizzaPlaces.AlfreddosPlace">
+  <Class Name="AbstractFactory.Factories.AlfreddosPlace">
     <Position X="5.25" Y="7.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAAAAAAIAAAAAAAAAAAYAAAAEAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>AlfreddosPlace.cs</FileName>
+      <HashCode>AgAAAAAAAAIAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\AlfreddosPlace.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AbstractFactory.PizzaPlaces.Calzone">
+  <Class Name="AbstractFactory.Pizzas.Calzone">
     <Position X="7" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAA=</HashCode>
-      <FileName>Calzone.cs</FileName>
+      <FileName>Pizzas\Calzone.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AbstractFactory.PizzaPlaces.CheesePizza">
+  <Class Name="AbstractFactory.Pizzas.CheesePizza">
     <Position X="4.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAA=</HashCode>
-      <FileName>CheesePizza.cs</FileName>
+      <FileName>Pizzas\CheesePizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AbstractFactory.PizzaPlaces.OnlineDeliveryCompany">
+  <Class Name="AbstractFactory.OnlineDeliveryCompany">
     <Position X="10.75" Y="5.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAAAAAAAQAAAAAAABAAAAAAAAAAEAAA=</HashCode>
       <FileName>OnlineDeliveryCompany.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AbstractFactory.PizzaPlaces.PepperoniPizza">
+  <Class Name="AbstractFactory.Pizzas.PepperoniPizza">
     <Position X="9.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAA=</HashCode>
-      <FileName>PepperoniPizza.cs</FileName>
+      <FileName>Pizzas\PepperoniPizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AbstractFactory.PizzaPlaces.Pizza" Collapsed="true">
+  <Class Name="AbstractFactory.Pizzas.Pizza" Collapsed="true">
     <Position X="7" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAIAAAACQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Pizza.cs</FileName>
+      <FileName>Pizzas\Pizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AbstractFactory.PizzaPlaces.PizzaExtraordinaire">
+  <Class Name="AbstractFactory.Factories.PizzaExtraordinaire">
     <Position X="7.25" Y="7.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAAAAAAIAAAAAAAAAAAYAAAAEAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>PizzaExtraordinaire.cs</FileName>
+      <HashCode>AgAAAAAAAAIAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\PizzaExtraordinaire.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

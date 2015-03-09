@@ -1,5 +1,7 @@
-﻿namespace AbstractFactory.PizzaPlaces
+﻿namespace AbstractFactory.Factories
 {
+    using AbstractFactory.Pizzas;
+
     public abstract class PizzaFactory
     {
         public abstract CheesePizza MakeCheesePizza();

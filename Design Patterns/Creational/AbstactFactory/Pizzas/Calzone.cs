@@ -1,12 +1,12 @@
-﻿namespace AbstractFactory.PizzaPlaces
+﻿namespace AbstractFactory.Pizzas
 {
     using System.Collections.Generic;
 
-    public class PepperoniPizza : Pizza
+    public class Calzone : Pizza
     {
         private readonly string madeBy;
 
-        public PepperoniPizza(IEnumerable<string> ingredients, string madeBy)
+        public Calzone(IEnumerable<string> ingredients, string madeBy)
             : base(ingredients)
         {
             this.madeBy = madeBy;
@@ -16,7 +16,7 @@
         {
             get
             {
-                return string.Format("Pepporni Pizza made by {0}", this.madeBy);
+                return string.Format("Calzone made by {0}", this.madeBy);
             }
         }
     }

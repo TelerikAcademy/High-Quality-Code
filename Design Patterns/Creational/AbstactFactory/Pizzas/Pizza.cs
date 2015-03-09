@@ -1,6 +1,8 @@
-﻿namespace AbstractFactory.PizzaPlaces
+﻿namespace AbstractFactory.Pizzas
 {
+    using System;
     using System.Collections.Generic;
+    using System.Text;
 
     public abstract class Pizza
     {
@@ -20,5 +22,13 @@
         }
 
         public abstract string Name { get; }
+
+        public override string ToString()
+        {
+            var stringBuilder = new StringBuilder();
+            stringBuilder.AppendLine(this.Name);
+            stringBuilder.AppendLine(string.Join(", ", this.Ingredients));
+            return stringBuilder.ToString();
+        }
     }
 }

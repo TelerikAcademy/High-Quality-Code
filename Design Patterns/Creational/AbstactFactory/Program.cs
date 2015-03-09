@@ -1,22 +1,24 @@
-﻿namespace AbstractFactory.PizzaPlaces
+﻿namespace AbstractFactory
 {
     using System;
+
+    using AbstractFactory.Factories;
 
     public class Program
     {
         public static void Main()
         {
-            var pizzaPlace = new PizzaExtraordinaire();
+            var pizzaPlace = new AlfreddosPlace(); // new PizzaExtraordinaire();
             var yamYam = new OnlineDeliveryCompany(pizzaPlace);
 
             var cheesePizza = yamYam.DeliverCheesePizza();
+            Console.WriteLine(cheesePizza.ToString());
 
-            Console.WriteLine(cheesePizza.Name);
-            Console.WriteLine("Ingredients: ");
-            foreach (var ingredient in cheesePizza.Ingredients)
-            {
-                Console.WriteLine(ingredient);
-            }
+            var calzone = yamYam.DeliverCalzone();
+            Console.WriteLine(calzone.ToString());
+
+            var pepperoniPizza = yamYam.DeliverPepperoniPizza();
+            Console.WriteLine(pepperoniPizza.ToString());
         }
     }
 }

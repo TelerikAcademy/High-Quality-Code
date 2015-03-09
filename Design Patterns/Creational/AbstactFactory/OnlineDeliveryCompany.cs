@@ -1,5 +1,8 @@
-﻿namespace AbstractFactory.PizzaPlaces
+﻿namespace AbstractFactory
 {
+    using AbstractFactory.Factories;
+    using AbstractFactory.Pizzas;
+
     public class OnlineDeliveryCompany
     {
         private readonly PizzaFactory factory;

@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory.PizzaPlaces
+﻿namespace AbstractFactory.Pizzas
 {
     using System.Collections.Generic;
 
