@@ -42,9 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Prototype example - storm troopers\Program.cs" />
-    <Compile Include="Prototype example - storm troopers\Stormtrooper.cs" />
-    <Compile Include="Prototype example - storm troopers\StormtrooperPrototype.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Stormtrooper.cs" />
+    <Compile Include="StormtrooperPrototype.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

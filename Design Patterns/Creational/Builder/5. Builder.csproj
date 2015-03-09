@@ -41,18 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Builder example - vehicle shop\CarBuilder.cs" />
-    <Compile Include="Builder example - vehicle shop\MotorCycleBuilder.cs" />
-    <Compile Include="Builder example - vehicle shop\Program.cs" />
-    <Compile Include="Builder example - vehicle shop\ScooterBuilder.cs" />
-    <Compile Include="Builder example - vehicle shop\Shop.cs" />
-    <Compile Include="Builder example - vehicle shop\Vehicle.cs" />
-    <Compile Include="Builder example - vehicle shop\VehicleBuilder.cs" />
+    <Compile Include="CarBuilder.cs" />
+    <Compile Include="MotorCycleBuilder.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ScooterBuilder.cs" />
+    <Compile Include="Shop.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="VehicleBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
