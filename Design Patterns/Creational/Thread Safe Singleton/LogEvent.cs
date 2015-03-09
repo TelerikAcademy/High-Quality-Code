@@ -4,24 +4,14 @@
 
     public class LogEvent
     {
-        private readonly string message;
-
-        private readonly DateTime eventDate;
-
         public LogEvent(string message)
         {
-            this.message = message;
-            this.eventDate = DateTime.Now;
+            this.Message = message;
+            this.EventDate = DateTime.Now;
         }
 
-        public string Message
-        {
-            get { return this.message; }
-        }
+        public string Message { get; private set; }
 
-        public DateTime EventDate
-        {
-            get { return this.eventDate; }
-        }
+        public DateTime EventDate { get; private set; }
     }
 }

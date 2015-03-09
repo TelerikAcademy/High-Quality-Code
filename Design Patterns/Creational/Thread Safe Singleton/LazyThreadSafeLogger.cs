@@ -3,35 +3,23 @@
     using System;
     using System.Collections.Generic;
 
-    public sealed class ThreadSafeLogger
+    public sealed class LazyThreadSafeLogger
     {
-        private static volatile ThreadSafeLogger logger;
-
-        private static object syncLock = new object();
+        private static readonly Lazy<LazyThreadSafeLogger> Lazy =
+            new Lazy<LazyThreadSafeLogger>(() => new LazyThreadSafeLogger());
 
         private readonly List<LogEvent> events;
 
-        private ThreadSafeLogger()
+        private LazyThreadSafeLogger()
         {
             this.events = new List<LogEvent>();
         }
 
-        public static ThreadSafeLogger Instance
+        public static LazyThreadSafeLogger Instance
         {
             get
             {
-                if (logger == null)
-                {
-                    lock (syncLock)
-                    {
-                        if (logger == null)
-                        {
-                            logger = new ThreadSafeLogger();
-                        }
-                    }
-                }
-
-                return logger;
+                return Lazy.Value;
             }
         }
 
