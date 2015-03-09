@@ -42,10 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Singleton example - thread safe Log\LogEvent.cs" />
-    <Compile Include="Singleton example - thread safe Log\LoggerWithSingleton.cs" />
-    <Compile Include="Singleton example - thread safe Log\Program.cs" />
-    <Compile Include="Singleton - Thread safe.cs" />
+    <Compile Include="LogEvent.cs" />
+    <Compile Include="LoggerWithSingleton.cs" />
+    <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

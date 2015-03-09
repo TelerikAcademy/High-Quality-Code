@@ -1,4 +1,4 @@
-﻿namespace ThreadSafeSingleton.Logger
+﻿namespace ThreadSafeSingleton
 {
     using System;
     using System.Collections.Generic;
