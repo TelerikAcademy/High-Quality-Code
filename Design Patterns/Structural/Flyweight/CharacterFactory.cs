@@ -38,5 +38,13 @@
 
             return character;
         }
+
+        public int NumberOfObjects
+        {
+            get
+            {
+                return this.characters.Count;
+            }
+        }
     }
 }
