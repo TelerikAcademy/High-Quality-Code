@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Proxy", "Structural\Prox
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. FluentInterface", "Creational\FluentInterface\7. FluentInterface.csproj", "{F67703B0-72F1-4C97-BC58-B107A0234B41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. LazyInitialization", "Creational\LazyInitialization\8. LazyInitialization.csproj", "{E0B51DB5-7820-40EB-9BAC-50C5545347F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{F67703B0-72F1-4C97-BC58-B107A0234B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F67703B0-72F1-4C97-BC58-B107A0234B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F67703B0-72F1-4C97-BC58-B107A0234B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B51DB5-7820-40EB-9BAC-50C5545347F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B51DB5-7820-40EB-9BAC-50C5545347F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B51DB5-7820-40EB-9BAC-50C5545347F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B51DB5-7820-40EB-9BAC-50C5545347F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,5 +187,6 @@ Global
 		{295B9340-AEB1-413B-BB0A-905D6A7B6319} = {7017215C-C340-4D13-90DC-46C48C1FD08B}
 		{D9C9DEBA-5BD7-4A87-AE1F-BB4BA103AAE6} = {7017215C-C340-4D13-90DC-46C48C1FD08B}
 		{F67703B0-72F1-4C97-BC58-B107A0234B41} = {3000B6B0-3AF9-41AF-9B66-436B97A7F1D1}
+		{E0B51DB5-7820-40EB-9BAC-50C5545347F9} = {3000B6B0-3AF9-41AF-9B66-436B97A7F1D1}
 	EndGlobalSection
 EndGlobal
