@@ -25,13 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Interpreter", "Behaviora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Visitor", "Behavioral\Visitor\8. Visitor.csproj", "{334FEA69-239D-4D38-9995-D85DAC0838B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Decorator", "Structural\Decorator\4. Decorator.csproj", "{F6009454-4BE4-4C24-B173-514397C200BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Decorator", "Structural\Decorator\5. Decorator.csproj", "{F6009454-4BE4-4C24-B173-514397C200BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Bridge", "Structural\Bridge\6. Bridge.csproj", "{25BEACBF-EDD8-4F72-BDD7-25B182F39778}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Bridge", "Structural\Bridge\7. Bridge.csproj", "{25BEACBF-EDD8-4F72-BDD7-25B182F39778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Adapter", "Structural\Adapter\5. Adapter.csproj", "{39F79F1F-09E5-44A8-8CB7-7333CE04A1F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Adapter", "Structural\Adapter\6. Adapter.csproj", "{39F79F1F-09E5-44A8-8CB7-7333CE04A1F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Flyweight", "Structural\Flyweight\7. Flyweight.csproj", "{7CF1C970-861F-4837-96E9-4E6E9E603A63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Flyweight", "Structural\Flyweight\3. Flyweight.csproj", "{7CF1C970-861F-4837-96E9-4E6E9E603A63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Singleton", "Creational\Singleton\1. Singleton.csproj", "{22268D43-911A-4783-A539-5BDFDE282777}"
 EndProject
@@ -51,7 +51,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Facade", "Structural\Fac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Composite", "Structural\Composite\2. Composite.csproj", "{295B9340-AEB1-413B-BB0A-905D6A7B6319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Proxy", "Structural\Proxy\3. Proxy.csproj", "{D9C9DEBA-5BD7-4A87-AE1F-BB4BA103AAE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Proxy", "Structural\Proxy\4. Proxy.csproj", "{D9C9DEBA-5BD7-4A87-AE1F-BB4BA103AAE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. FluentInterface", "Creational\FluentInterface\7. FluentInterface.csproj", "{F67703B0-72F1-4C97-BC58-B107A0234B41}"
 EndProject
