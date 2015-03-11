@@ -21,11 +21,11 @@
 
         public override void Display()
         {
-            Console.WriteLine("\nVideo ----- ");
+            Console.WriteLine("Video ----- ");
             Console.WriteLine(" Director: {0}", this.director);
             Console.WriteLine(" Title: {0}", this.title);
             Console.WriteLine(" # Copies: {0}", this.CopiesCount);
-            Console.WriteLine(" Playtime: {0}\n", this.playTime);
+            Console.WriteLine(" Playtime: {0}", this.playTime);
         }
     }
 }

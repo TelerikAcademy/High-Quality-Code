@@ -33,7 +33,7 @@
 
             foreach (var borrower in this.borrowers)
             {
-                Console.WriteLine(" borrower: " + borrower);
+                Console.WriteLine("  borrower: " + borrower);
             }
         }
     }

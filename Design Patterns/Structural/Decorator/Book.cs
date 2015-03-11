@@ -19,7 +19,7 @@
 
         public override void Display()
         {
-            Console.WriteLine("\nBook ------ ");
+            Console.WriteLine("Book ------ ");
             Console.WriteLine(" Author: {0}", this.author);
             Console.WriteLine(" Title: {0}", this.title);
             Console.WriteLine(" # Copies: {0}", this.CopiesCount);
