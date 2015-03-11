@@ -2,8 +2,9 @@
 {
     /// <summary>
     /// The 'Director' class
+    /// Constructs an object using the Builder interface
     /// </summary>
-    internal class Shop
+    public class VehicleConstructor
     {
         public void Construct(VehicleBuilder vehicleBuilder)
         {

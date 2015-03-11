@@ -45,7 +45,7 @@
     <Compile Include="MotorCycleBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ScooterBuilder.cs" />
-    <Compile Include="Shop.cs" />
+    <Compile Include="VehicleConstructor.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="VehicleBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

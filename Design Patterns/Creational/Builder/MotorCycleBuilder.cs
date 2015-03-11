@@ -3,7 +3,7 @@
     /// <summary>
     /// The 'ConcreteBuilder' class
     /// </summary>
-    internal class MotorCycleBuilder : VehicleBuilder
+    public class MotorCycleBuilder : VehicleBuilder
     {
         public MotorCycleBuilder()
         {

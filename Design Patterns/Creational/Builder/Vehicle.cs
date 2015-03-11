@@ -5,8 +5,9 @@
 
     /// <summary>
     /// The 'Product' class
+    /// Represents the complex object under construction
     /// </summary>
-    internal class Vehicle
+    public class Vehicle
     {
         private readonly string vehicleType;
         private readonly Dictionary<string, string> parts = new Dictionary<string, string>();
@@ -24,7 +25,6 @@
 
         public void Show()
         {
-            Console.WriteLine();
             Console.WriteLine("---------------------------");
             Console.WriteLine("Vehicle Type: {0}", this.vehicleType);
             Console.WriteLine(" Frame  : {0}", this.parts["frame"]);

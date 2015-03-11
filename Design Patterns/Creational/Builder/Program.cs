@@ -1,22 +1,25 @@
 ﻿namespace Builder
 {
-    internal class Program
+    public class Program
     {
-        internal static void Main()
+        public static void Main()
         {
             VehicleBuilder builder;
-            var shop = new Shop();
 
+            // We can choose concrete constructor (director)
+            var constructor = new VehicleConstructor();
+
+            // And we can choose concrete builder
             builder = new ScooterBuilder();
-            shop.Construct(builder);
+            constructor.Construct(builder);
             builder.Vehicle.Show();
 
             builder = new CarBuilder();
-            shop.Construct(builder);
+            constructor.Construct(builder);
             builder.Vehicle.Show();
 
             builder = new MotorCycleBuilder();
-            shop.Construct(builder);
+            constructor.Construct(builder);
             builder.Vehicle.Show();
         }
     }
