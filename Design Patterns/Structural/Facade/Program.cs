@@ -1,10 +1,10 @@
 ﻿namespace FacadePattern
 {
-    internal class Program
+    public class Program
     {
-        private static void Main(string[] args)
+        public static void Main()
         {
-            HomeTheaterPro es = HomeTheaterPro.GetInstance();
+            HomeTheaterPro es = HomeTheaterPro.CreateInstance();
 
             es.InitHomeSystem();
             es.Next();

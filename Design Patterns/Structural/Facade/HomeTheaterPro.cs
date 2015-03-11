@@ -2,23 +2,18 @@
 
 namespace FacadePattern
 {
-    // FACADE
+    /// <summary>
+    /// Facade
+    /// </summary>
     public class HomeTheaterPro
     {
         private readonly Database db = new Database();
         private readonly Player player = new Player();
         private readonly InteriorController roomControll = new InteriorController();
 
-        private static HomeTheaterPro instance;
-
-        public static HomeTheaterPro GetInstance()
+        public static HomeTheaterPro CreateInstance()
         {
-            if (instance == null)
-            {
-                instance = new HomeTheaterPro();
-            }
-
-            return instance;
+            return new HomeTheaterPro();
         }
 
         private void SeedDatabase()
