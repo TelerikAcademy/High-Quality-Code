@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pool.cs" />
-    <Compile Include="PooledObject.cs" />
+    <Compile Include="Warehouse.cs" />
+    <Compile Include="Equipment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

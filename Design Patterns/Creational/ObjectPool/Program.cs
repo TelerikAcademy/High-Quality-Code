@@ -1,25 +1,33 @@
-﻿using System.Threading;
-namespace ObjectPool
+﻿namespace ObjectPool
 {
+    using System;
+    using System.Threading;
+
     public class Program
     {
         public static void Main()
         {
-            var objectPool = new Pool();
+            var warehouse = new Warehouse<Equipment>();
 
-            var obj1 = objectPool.GetObject();
-            System.Console.WriteLine("Object 1 {0:MM/dd/yyyy hh:mm:ss.fff tt}", obj1.CreatedAt);
-            Thread.Sleep(1000);
+            var equipment1 = warehouse.GetEquipment();
+            equipment1.EmployeeName = "Atos";
+            Console.WriteLine("Equipment 1 ordered on {0:MM/dd/yyyy hh:mm:ss.fff tt} used by {1}",
+                equipment1.OrderedAt, equipment1.EmployeeName);
+            Thread.Sleep(2000);
 
-            var obj2 = objectPool.GetObject();
-            System.Console.WriteLine("Object 2 {0:MM/dd/yyyy hh:mm:ss.fff tt}", obj2.CreatedAt);
-            Thread.Sleep(1000);
+            var equipment2 = warehouse.GetEquipment();
+            equipment1.EmployeeName = "Portos";
+            Console.WriteLine("Equipment 2 ordered on {0:MM/dd/yyyy hh:mm:ss.fff tt} used by {1}",
+                equipment2.OrderedAt, equipment1.EmployeeName);
+            Thread.Sleep(2000);
             
-            objectPool.ReleaseObject(obj1);
+            warehouse.ReleaseEquipment(equipment1);
 
-            var obj3 = objectPool.GetObject();
-            System.Console.WriteLine("Object 3 {0:MM/dd/yyyy hh:mm:ss.fff tt}", obj3.CreatedAt);
-            Thread.Sleep(1000);
+            var equipment3 = warehouse.GetEquipment();
+            equipment1.EmployeeName = "Aramis";
+            Console.WriteLine("Equipment 3 ordered on {0:MM/dd/yyyy hh:mm:ss.fff tt} used by {1}",
+                equipment3.OrderedAt, equipment1.EmployeeName);
+            Thread.Sleep(2000);
         }
     }
 }
