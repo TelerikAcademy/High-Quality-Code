@@ -5,7 +5,7 @@
 
     public sealed class Logger
     {
-        private static readonly Logger LoggerInstance = new Logger();
+        private static Logger LoggerInstance;
 
         private readonly List<LogEvent> events = new List<LogEvent>();
 
@@ -17,6 +17,11 @@
         {
             get
             {
+                if (LoggerInstance == null)
+                {
+                    LoggerInstance = new Logger();
+                }
+
                 return LoggerInstance;
             }
         }
