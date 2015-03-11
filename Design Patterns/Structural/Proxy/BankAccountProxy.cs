@@ -11,7 +11,7 @@ namespace ProxyPattern
         public BankAccountProxy(string userName, string secretKey)
         {
             // Validate if the user is logged in, if he is legit, if he has rights to see this information and so on...
-            if (true)
+            if (userName != null && secretKey != null)
             {
                 userIsAuthorized = true;
             }
@@ -58,6 +58,7 @@ namespace ProxyPattern
         {
             // Do validations
             CheckIfAccountIsActive();
+
             return realAccount.CurrentBallance();
         }
 

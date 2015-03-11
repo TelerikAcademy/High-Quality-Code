@@ -6,16 +6,14 @@ namespace ProxyPattern
     {
         private static void Main(string[] args)
         {
-            IBankAccount account = new BankAccountProxy("az sum", "naistina");
+            IBankAccount account = new BankAccountProxy("it's me", "for real");
 
             DisplayBallance(account);
-
             Deposit(25, account);
-
+            DisplayBallance(account);
             Withdraw(250, account);
-
+            DisplayBallance(account);
             Deposit(700, account);
-
             DisplayBallance(account);
         }
 
