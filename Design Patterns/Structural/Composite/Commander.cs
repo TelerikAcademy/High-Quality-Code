@@ -29,7 +29,7 @@ namespace CompositePattern
 
             foreach (var person in subjects)
             {
-                person.Display(depth + 2);
+                person.Display(depth + 4);
             }
         }
     }
