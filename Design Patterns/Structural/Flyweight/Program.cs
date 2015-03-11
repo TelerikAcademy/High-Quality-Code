@@ -2,9 +2,9 @@
 {
     using System;
 
-    internal class Program
+    public class Program
     {
-        internal static void Main()
+        public static void Main()
         {
             // Build a document with text
             const string Document = "AAZZBBZB";
@@ -22,9 +22,6 @@
                 var character = factory.GetCharacter(c);
                 character.Display(pointSize);
             }
-
-            // Wait for user
-            Console.ReadKey();
         }
     }
 }

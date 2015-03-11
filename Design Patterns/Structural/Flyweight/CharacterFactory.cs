@@ -5,7 +5,7 @@
     /// <summary>
     /// The 'FlyweightFactory' class
     /// </summary>
-    internal class CharacterFactory
+    public class CharacterFactory
     {
         private readonly Dictionary<char, Character> characters = new Dictionary<char, Character>();
 

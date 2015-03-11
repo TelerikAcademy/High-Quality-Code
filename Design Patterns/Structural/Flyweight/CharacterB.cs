@@ -5,7 +5,7 @@
     /// <summary>
     /// A 'ConcreteFlyweight' class
     /// </summary>
-    internal class CharacterB : Character
+    public class CharacterB : Character
     {
         public CharacterB()
         {

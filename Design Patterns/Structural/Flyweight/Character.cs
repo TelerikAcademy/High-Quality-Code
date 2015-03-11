@@ -3,7 +3,7 @@
     /// <summary>
     /// The 'Flyweight' abstract class
     /// </summary>
-    internal abstract class Character
+    public abstract class Character
     {
         protected char Symbol;
 
