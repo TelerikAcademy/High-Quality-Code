@@ -1,5 +1,8 @@
 ﻿namespace Adapter
 {
+    /// <summary>
+    /// The client code
+    /// </summary>
     public static class Program
     {
         public static void Main()

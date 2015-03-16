@@ -3,7 +3,7 @@
     using System;
 
     /// <summary>
-    /// The 'Adapter' class
+    /// The 'ConcreteAdapter' class
     /// </summary>
     internal class RichCompound : ICompound
     {

@@ -1,7 +1,7 @@
 ﻿namespace Adapter
 {
     /// <summary>
-    /// The 'Target' class
+    /// The 'Target' class (Adapter)
     /// </summary>
     internal interface ICompound
     {
