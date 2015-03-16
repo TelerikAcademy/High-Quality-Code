@@ -3,12 +3,15 @@
     using System;
     using System.Collections.Generic;
 
-    internal class Program
+    using Bridge.Formatters;
+    using Bridge.Manuscripts;
+
+    public static class Program
     {
-        internal static void Main(string[] args)
+        public static void Main()
         {
             var documents = new List<Manuscript>();
-            var formatter = new FancyFormatter();
+            var formatter = new FancyFormatter(); // new BackwardsFormatter();
 
             var faq = new FAQ(formatter) { Title = "The Bridge Pattern FAQ" };
             faq.Questions.Add("What is it?", "A design pattern");

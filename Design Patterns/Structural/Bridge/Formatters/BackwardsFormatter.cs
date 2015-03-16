@@ -1,4 +1,4 @@
-﻿namespace Bridge
+﻿namespace Bridge.Formatters
 {
     using System.Linq;
 

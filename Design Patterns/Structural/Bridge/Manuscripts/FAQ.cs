@@ -1,7 +1,9 @@
-﻿namespace Bridge
+﻿namespace Bridge.Manuscripts
 {
     using System;
     using System.Collections.Generic;
+
+    using Bridge.Formatters;
 
     internal class FAQ : Manuscript
     {
@@ -17,11 +19,11 @@
 
         public override void Print()
         {
-            Console.WriteLine(Formatter.Format("Title", this.Title));
+            Console.WriteLine(this.Formatter.Format("Title", this.Title));
             foreach (var question in this.Questions)
             {
-                Console.WriteLine(Formatter.Format("   Question", question.Key));
-                Console.WriteLine(Formatter.Format("   Answer", question.Value));
+                Console.WriteLine(this.Formatter.Format("   Question", question.Key));
+                Console.WriteLine(this.Formatter.Format("   Answer", question.Value));
             }
 
             Console.WriteLine();

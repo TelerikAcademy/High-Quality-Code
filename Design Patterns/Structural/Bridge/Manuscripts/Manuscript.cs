@@ -1,5 +1,7 @@
-﻿namespace Bridge
+﻿namespace Bridge.Manuscripts
 {
+    using Bridge.Formatters;
+
     internal abstract class Manuscript
     {
         protected readonly IFormatter Formatter;

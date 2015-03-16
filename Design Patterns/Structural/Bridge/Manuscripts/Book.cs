@@ -1,6 +1,8 @@
-﻿namespace Bridge
+﻿namespace Bridge.Manuscripts
 {
     using System;
+
+    using Bridge.Formatters;
 
     internal class Book : Manuscript
     {
@@ -17,9 +19,9 @@
 
         public override void Print()
         {
-            Console.WriteLine(Formatter.Format("Title", this.Title));
-            Console.WriteLine(Formatter.Format("Author", this.Author));
-            Console.WriteLine(Formatter.Format("Text", this.Text));
+            Console.WriteLine(this.Formatter.Format("Title", this.Title));
+            Console.WriteLine(this.Formatter.Format("Author", this.Author));
+            Console.WriteLine(this.Formatter.Format("Text", this.Text));
             Console.WriteLine();
         }
     }

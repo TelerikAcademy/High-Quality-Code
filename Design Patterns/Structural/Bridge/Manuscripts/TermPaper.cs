@@ -1,6 +1,8 @@
-﻿namespace Bridge
+﻿namespace Bridge.Manuscripts
 {
     using System;
+
+    using Bridge.Formatters;
 
     internal class TermPaper : Manuscript
     {
@@ -19,10 +21,10 @@
 
         public override void Print()
         {
-            Console.WriteLine(Formatter.Format("Class", this.Class));
-            Console.WriteLine(Formatter.Format("Student", this.Student));
-            Console.WriteLine(Formatter.Format("Text", this.Text));
-            Console.WriteLine(Formatter.Format("References", this.References));
+            Console.WriteLine(this.Formatter.Format("Class", this.Class));
+            Console.WriteLine(this.Formatter.Format("Student", this.Student));
+            Console.WriteLine(this.Formatter.Format("Text", this.Text));
+            Console.WriteLine(this.Formatter.Format("References", this.References));
             Console.WriteLine();
         }
     }
