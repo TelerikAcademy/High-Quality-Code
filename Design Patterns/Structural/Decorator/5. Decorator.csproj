@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Book.cs" />
     <Compile Include="Borrowable.cs" />
+    <Compile Include="Buyable.cs" />
     <Compile Include="Decorator.cs" />
     <Compile Include="LibraryItem.cs" />
     <Compile Include="Program.cs" />

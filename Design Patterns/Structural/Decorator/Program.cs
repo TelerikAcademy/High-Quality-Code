@@ -31,6 +31,12 @@
             borrowableVideo.BorrowItem("Ivaylo Kenov");
             borrowableVideo.Display();
             Console.WriteLine(new string('-', 60));
+
+            // Make only video buyable
+            Console.WriteLine("Making video buyable:");
+            var buyableAndBorrowableVideo = new Buyable(borrowableVideo, 15);
+            buyableAndBorrowableVideo.Display();
+            Console.WriteLine(new string('-', 60));
         }
     }
 }
