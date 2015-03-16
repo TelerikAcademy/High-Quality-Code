@@ -9,6 +9,14 @@
     {
         private readonly Dictionary<char, Character> characters = new Dictionary<char, Character>();
 
+        public int NumberOfObjects
+        {
+            get
+            {
+                return this.characters.Count;
+            }
+        }
+
         public Character GetCharacter(char key)
         {
             // Uses "lazy initialization"
@@ -37,14 +45,6 @@
             }
 
             return character;
-        }
-
-        public int NumberOfObjects
-        {
-            get
-            {
-                return this.characters.Count;
-            }
         }
     }
 }

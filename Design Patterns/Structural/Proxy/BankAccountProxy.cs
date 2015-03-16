@@ -1,19 +1,19 @@
-﻿using System;
-
-namespace ProxyPattern
+﻿namespace ProxyPattern
 {
+    using System;
+
     public class BankAccountProxy : IBankAccount
     {
-        private BankAccount realAccount;
+        private readonly bool userIsAuthorized;
 
-        private bool userIsAuthorized;
+        private BankAccount realAccount;
 
         public BankAccountProxy(string userName, string secretKey)
         {
             // Validate if the user is logged in, if he is legit, if he has rights to see this information and so on...
             if (userName != null && secretKey != null)
             {
-                userIsAuthorized = true;
+                this.userIsAuthorized = true;
             }
         }
 
@@ -31,16 +31,16 @@ namespace ProxyPattern
                 return false;
             }
 
-            if (!userIsAuthorized)
+            if (!this.userIsAuthorized)
             {
                 Console.WriteLine("You are not authorized!");
                 Console.WriteLine("Redirecting you to login screen...");
                 return false;
             }
 
-            CheckIfAccountIsActive();
+            this.CheckIfAccountIsActive();
 
-            realAccount.Deposit(amount);
+            this.realAccount.Deposit(amount);
 
             return true;
         }
@@ -48,25 +48,25 @@ namespace ProxyPattern
         public bool Withdraw(decimal amount)
         {
             // Do validations
-            CheckIfAccountIsActive();
+            this.CheckIfAccountIsActive();
 
-            realAccount.Withdraw(amount);
+            this.realAccount.Withdraw(amount);
             return true;
         }
 
         public decimal CurrentBallance()
         {
             // Do validations
-            CheckIfAccountIsActive();
+            this.CheckIfAccountIsActive();
 
-            return realAccount.CurrentBallance();
+            return this.realAccount.CurrentBallance();
         }
 
         private void CheckIfAccountIsActive()
         {
-            if (realAccount == null)
+            if (this.realAccount == null)
             {
-                realAccount = new BankAccount();
+                this.realAccount = new BankAccount();
             }
         }
     }

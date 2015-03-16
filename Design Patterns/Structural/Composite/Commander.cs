@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CompositePattern
+﻿namespace CompositePattern
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Commander : PersonComponent
     {
-        private ICollection<PersonComponent> subjects;
+        private readonly ICollection<PersonComponent> subjects;
 
         public Commander(string name)
             : base(name)
@@ -25,9 +25,9 @@ namespace CompositePattern
 
         public override void Display(int depth)
         {
-            Console.WriteLine(new String('-', depth) + name);
+            Console.WriteLine(new string('-', depth) + this.Name);
 
-            foreach (var person in subjects)
+            foreach (var person in this.subjects)
             {
                 person.Display(depth + 4);
             }

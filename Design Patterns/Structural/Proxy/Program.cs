@@ -1,10 +1,10 @@
-﻿using System;
-
-namespace ProxyPattern
+﻿namespace ProxyPattern
 {
-    internal class Program
+    using System;
+
+    public static class Program
     {
-        private static void Main(string[] args)
+        public static void Main()
         {
             IBankAccount account = new BankAccountProxy("it's me", "for real");
 

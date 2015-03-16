@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace CompositePattern
+﻿namespace CompositePattern
 {
+    using System;
+
     public class Person : PersonComponent
     {
         public Person(string name)
@@ -21,7 +21,7 @@ namespace CompositePattern
 
         public override void Display(int depth)
         {
-            Console.WriteLine(new String('-', depth) + name);
+            Console.WriteLine(new string('-', depth) + this.Name);
         }
     }
 }

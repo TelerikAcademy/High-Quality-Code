@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace FacadePattern
+﻿namespace FacadePattern
 {
+    using System;
+
     /// <summary>
     /// Facade
     /// </summary>
@@ -11,70 +11,19 @@ namespace FacadePattern
         private readonly Player player = new Player();
         private readonly InteriorController roomControll = new InteriorController();
 
+        private HomeTheaterPro()
+        {
+            this.SeedDatabase(); // For testing
+        }
+
         public static HomeTheaterPro CreateInstance()
         {
             return new HomeTheaterPro();
         }
 
-        private void SeedDatabase()
-        {
-            db.Add(new MediaEntity
-                {
-                    Title = "Stardust",
-                    FileExtention = "avi",
-                    Duration = 160,
-                    Content = new byte[200]
-                });
-
-            db.Add(new MediaEntity
-            {
-                Title = "Lord of the Rings - The Two Towers",
-                FileExtention = "avi",
-                Duration = 160,
-                Content = new byte[200]
-            });
-
-            db.Add(new MediaEntity
-            {
-                Title = "Lord of the Rings - The Return of the King",
-                FileExtention = "avi",
-                Duration = 160,
-                Content = new byte[200]
-            });
-
-            db.Add(new MediaEntity
-            {
-                Title = "Lord of the Rings - The Fellowship of the Ring",
-                FileExtention = "mkv",
-                Duration = 160,
-                Content = new byte[200]
-            });
-
-            db.Add(new MediaEntity
-            {
-                Title = "The next three days",
-                FileExtention = "mpeg",
-                Duration = 160,
-                Content = new byte[200]
-            });
-
-            db.Add(new MediaEntity
-            {
-                Title = "Red",
-                FileExtention = "mp4",
-                Duration = 160,
-                Content = new byte[200]
-            });
-        }
-
-        private HomeTheaterPro()
-        {
-            SeedDatabase(); // For testing
-        }
-
         public void DisplayAvailableMedia()
         {
-            var allMedia = db.GetAvailableMedia();
+            var allMedia = this.db.GetAvailableMedia();
 
             foreach (var entity in allMedia)
             {
@@ -85,46 +34,97 @@ namespace FacadePattern
         public void InitHomeSystem()
         {
             Console.WriteLine();
-            Console.WriteLine("".PadLeft(30, '='));
+            Console.WriteLine(string.Empty.PadLeft(30, '='));
             Console.WriteLine();
-            roomControll.DimLights(15);
-            roomControll.MoveCurtains(0);
-            roomControll.HideTable();
+            this.roomControll.DimLights(15);
+            this.roomControll.MoveCurtains(0);
+            this.roomControll.HideTable();
             Console.WriteLine();
-            Console.WriteLine("".PadLeft(30, '='));
+            Console.WriteLine(string.Empty.PadLeft(30, '='));
             Console.WriteLine();
-            LoadMedia();
+            this.LoadMedia();
             Console.WriteLine();
-            Console.WriteLine("".PadLeft(30, '='));
+            Console.WriteLine(string.Empty.PadLeft(30, '='));
             Console.WriteLine();
-            player.Play();
-        }
-
-        private void LoadMedia()
-        {
-            var allMedia = db.GetAvailableMedia();
-
-            foreach (var entity in allMedia)
-            {
-                player.Load(entity);
-            }
+            this.player.Play();
         }
 
         public void Next()
         {
-            player.Next();
-            player.Play();
+            this.player.Next();
+            this.player.Play();
         }
 
         public void Previous()
         {
-            player.Previous();
-            player.Play();
+            this.player.Previous();
+            this.player.Play();
         }
 
         public void Stop()
         {
-            player.Stop();
+            this.player.Stop();
+        }
+
+        private void LoadMedia()
+        {
+            var allMedia = this.db.GetAvailableMedia();
+
+            foreach (var entity in allMedia)
+            {
+                this.player.Load(entity);
+            }
+        }
+
+        private void SeedDatabase()
+        {
+            this.db.Add(new MediaEntity
+            {
+                Title = "Stardust",
+                FileExtention = "avi",
+                Duration = 160,
+                Content = new byte[200]
+            });
+
+            this.db.Add(new MediaEntity
+            {
+                Title = "Lord of the Rings - The Two Towers",
+                FileExtention = "avi",
+                Duration = 160,
+                Content = new byte[200]
+            });
+
+            this.db.Add(new MediaEntity
+            {
+                Title = "Lord of the Rings - The Return of the King",
+                FileExtention = "avi",
+                Duration = 160,
+                Content = new byte[200]
+            });
+
+            this.db.Add(new MediaEntity
+            {
+                Title = "Lord of the Rings - The Fellowship of the Ring",
+                FileExtention = "mkv",
+                Duration = 160,
+                Content = new byte[200]
+            });
+
+            this.db.Add(new MediaEntity
+            {
+                Title = "The next three days",
+                FileExtention = "mpeg",
+                Duration = 160,
+                Content = new byte[200]
+            });
+
+            this.db.Add(new MediaEntity
+            {
+                Title = "Red",
+                FileExtention = "mp4",
+                Duration = 160,
+                Content = new byte[200]
+            });
         }
     }
 }

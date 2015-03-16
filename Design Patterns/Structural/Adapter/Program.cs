@@ -1,10 +1,8 @@
 ﻿namespace Adapter
 {
-    using System;
-
-    internal class Program
+    public static class Program
     {
-        internal static void Main(string[] args)
+        public static void Main()
         {
             ICompound water = new RichCompound("Water");
             water.Display();

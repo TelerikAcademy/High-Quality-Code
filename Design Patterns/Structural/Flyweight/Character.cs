@@ -5,17 +5,17 @@
     /// </summary>
     public abstract class Character
     {
-        protected char Symbol;
+        protected char Symbol { get; set; }
 
-        protected int Width;
+        protected int Width { get; set; }
 
-        protected int Height;
+        protected int Height { get; set; }
 
-        protected int Ascent;
+        protected int Ascent { get; set; }
 
-        protected int Descent;
+        protected int Descent { get; set; }
 
-        protected int PointSize;
+        protected int PointSize { get; set; }
 
         public abstract void Display(int pointSize);
     }

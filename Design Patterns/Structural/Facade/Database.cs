@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-
-namespace FacadePattern
+﻿namespace FacadePattern
 {
+    using System.Collections.Generic;
+
     public class Database
     {
-        private ICollection<MediaEntity> availableMedia;
+        private readonly ICollection<MediaEntity> availableMedia;
 
         public Database()
         {

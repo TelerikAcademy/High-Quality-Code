@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace FacadePattern
+﻿namespace FacadePattern
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Player : IPlayer
     {
-        private ICollection<MediaEntity> playlist;
+        private readonly ICollection<MediaEntity> playlist;
 
         private int currentIndex;
 
@@ -17,13 +17,13 @@ namespace FacadePattern
 
         public void Play()
         {
-            if (!playlist.Any())
+            if (!this.playlist.Any())
             {
                 Console.WriteLine("There are no items on the playlist. Please load some.");
                 return;
             }
 
-            MediaEntity currentPlaylistItem = playlist.ElementAtOrDefault(currentIndex);
+            var currentPlaylistItem = this.playlist.ElementAtOrDefault(this.currentIndex);
 
             if (currentPlaylistItem == null)
             {
@@ -37,26 +37,28 @@ namespace FacadePattern
         public void Stop()
         {
             Console.WriteLine("Stop");
-            currentIndex = 0;
+            this.currentIndex = 0;
         }
 
         public void Next()
         {
-            currentIndex++;
-            if (currentIndex >= playlist.Count)
+            this.currentIndex++;
+            if (this.currentIndex >= this.playlist.Count)
             {
-                currentIndex = 0;
+                this.currentIndex = 0;
             }
+
             Console.WriteLine("Switching to next item...");
         }
 
         public void Previous()
         {
-            currentIndex--;
-            if (currentIndex < 0)
+            this.currentIndex--;
+            if (this.currentIndex < 0)
             {
-                currentIndex = playlist.Count - 1;
+                this.currentIndex = this.playlist.Count - 1;
             }
+
             Console.WriteLine("Switching to previous item...");
         }
 

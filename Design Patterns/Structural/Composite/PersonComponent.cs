@@ -2,12 +2,12 @@
 {
     public abstract class PersonComponent
     {
-        protected string name;
-
-        public PersonComponent(string name)
+        protected PersonComponent(string name)
         {
-            this.name = name;
+            this.Name = name;
         }
+
+        protected string Name { get; private set; }
 
         public abstract void Add(PersonComponent page);
 

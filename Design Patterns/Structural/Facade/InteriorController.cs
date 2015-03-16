@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace FacadePattern
+﻿namespace FacadePattern
 {
+    using System;
+
     public class InteriorController
     {
         public void DimLights(int amount)
