@@ -1,4 +1,4 @@
-﻿namespace Command
+﻿namespace Command.CalculatorExample
 {
     using System;
     using System.Collections.Generic;
@@ -10,16 +10,16 @@
     {
         private readonly Calculator calculator = new Calculator();
         private readonly List<Command> commands = new List<Command>();
-        private int current;
+        private int currentCommandIndex;
 
         public void Redo(int levels)
         {
             Console.WriteLine("\n---- Redo {0} levels ", levels);
             for (int i = 0; i < levels; i++)
             {
-                if (this.current < this.commands.Count - 1)
+                if (this.currentCommandIndex < this.commands.Count - 1)
                 {
-                    var command = this.commands[this.current++];
+                    var command = this.commands[this.currentCommandIndex++];
                     command.Execute();
                 }
             }
@@ -30,9 +30,9 @@
             Console.WriteLine("\n---- Undo {0} levels ", levels);
             for (int i = 0; i < levels; i++)
             {
-                if (this.current > 0)
+                if (this.currentCommandIndex > 0)
                 {
-                    var command = this.commands[--this.current];
+                    var command = this.commands[--this.currentCommandIndex];
                     command.UnExecute();
                 }
             }
@@ -44,7 +44,7 @@
             command.Execute();
 
             this.commands.Add(command);
-            this.current++;
+            this.currentCommandIndex++;
         }
     }
 }

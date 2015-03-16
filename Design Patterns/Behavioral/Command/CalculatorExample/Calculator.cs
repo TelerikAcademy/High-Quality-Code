@@ -1,13 +1,13 @@
-﻿namespace Command
+﻿namespace Command.CalculatorExample
 {
     using System;
 
     /// <summary>
     /// The 'Receiver' class
     /// </summary>
-    internal class Calculator
+    public class Calculator
     {
-        private int currentValue;
+        private decimal currentValue;
 
         public void Operation(char @operator, int operand)
         {

@@ -1,9 +1,9 @@
-﻿namespace Command
+﻿namespace Command.CalculatorExample
 {
     /// <summary>
     /// The 'Command' abstract class
     /// </summary>
-    internal abstract class Command
+    public abstract class Command
     {
         public abstract void Execute();
 

@@ -1,11 +1,11 @@
-﻿namespace Command
+﻿namespace Command.CalculatorExample
 {
     using System;
 
     /// <summary>
     /// The 'ConcreteCommand' class
     /// </summary>
-    internal class CalculatorCommand : Command
+    public class CalculatorCommand : Command
     {
         private readonly Calculator calculator;
         private char @operator;

@@ -41,12 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
-    <Compile Include="CalculatorCommand.cs" />
-    <Compile Include="Command.cs" />
+    <Compile Include="CalculatorExample\Calculator.cs" />
+    <Compile Include="CalculatorExample\CalculatorCommand.cs" />
+    <Compile Include="CalculatorExample\Command.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="CalculatorExample\User.cs" />
+    <Compile Include="SwitchExample\CloseSwitchCommand.cs" />
+    <Compile Include="SwitchExample\ICommand.cs" />
+    <Compile Include="SwitchExample\ISwitchable.cs" />
+    <Compile Include="SwitchExample\Light.cs" />
+    <Compile Include="SwitchExample\OpenSwitchCommand.cs" />
+    <Compile Include="SwitchExample\Switch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
