@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{7017215C-C340-4D13-90DC-46C48C1FD08B}"
 EndProject
@@ -9,21 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{1C122608-8829-4E59-AEA8-E2F7CA09A442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. ChainOfResponsibility", "Behavioral\ChainOfResponsibility\1. ChainOfResponsibility.csproj", "{8AAAAB12-4464-4444-97D4-BBAEB3F85D08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. ChainOfResponsibility", "Behavioral\ChainOfResponsibility\01. ChainOfResponsibility.csproj", "{8AAAAB12-4464-4444-97D4-BBAEB3F85D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Command", "Behavioral\Command\2. Command.csproj", "{39BBAE25-04B7-4544-B12B-9D85A62BE228}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Command", "Behavioral\Command\05. Command.csproj", "{39BBAE25-04B7-4544-B12B-9D85A62BE228}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Observer", "Behavioral\Observer\3. Observer.csproj", "{0F2E9507-6B5A-49F0-812A-E41FEBDF7034}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Observer", "Behavioral\Observer\06. Observer.csproj", "{0F2E9507-6B5A-49F0-812A-E41FEBDF7034}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Mediator", "Behavioral\Mediator\4. Mediator.csproj", "{8C144062-3191-4657-AEE3-E3CFCCA6526E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Mediator", "Behavioral\Mediator\07. Mediator.csproj", "{8C144062-3191-4657-AEE3-E3CFCCA6526E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Memento", "Behavioral\Memento\5. Memento.csproj", "{FE122B4D-9B06-4321-BF6D-B9E6DD636189}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Memento", "Behavioral\Memento\08. Memento.csproj", "{FE122B4D-9B06-4321-BF6D-B9E6DD636189}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. State", "Behavioral\State\6. State.csproj", "{6B142019-8E91-4FA2-945F-A716411A6217}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. State", "Behavioral\State\10. State.csproj", "{6B142019-8E91-4FA2-945F-A716411A6217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Interpreter", "Behavioral\Interpreter\7. Interpreter.csproj", "{D638B5F3-F170-42CC-AD7F-F51A8E999B6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Interpreter", "Behavioral\Interpreter\11. Interpreter.csproj", "{D638B5F3-F170-42CC-AD7F-F51A8E999B6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Visitor", "Behavioral\Visitor\8. Visitor.csproj", "{334FEA69-239D-4D38-9995-D85DAC0838B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Visitor", "Behavioral\Visitor\09. Visitor.csproj", "{334FEA69-239D-4D38-9995-D85DAC0838B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Decorator", "Structural\Decorator\5. Decorator.csproj", "{F6009454-4BE4-4C24-B173-514397C200BC}"
 EndProject
@@ -59,7 +59,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. LazyInitialization", "Cr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. ObjectPool", "Creational\ObjectPool\9. ObjectPool.csproj", "{5D290366-0742-471E-975F-4C7F972593C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Strategy", "Behavioral\Strategy\9. Strategy.csproj", "{3D569EA9-DACF-45B6-83BB-15B2F6410BA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Strategy", "Behavioral\Strategy\04. Strategy.csproj", "{3D569EA9-DACF-45B6-83BB-15B2F6410BA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
