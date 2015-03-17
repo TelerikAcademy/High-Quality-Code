@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7361AF5D-2F35-4094-8215-04F3FC7C3EE5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SOLID_and_Other_Principles</RootNamespace>
+    <AssemblyName>SOLID and Other Principles</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1. Single Responsibility\1. After - Drawing Shape\Contracts\IDrawingContext.cs" />
+    <Compile Include="1. Single Responsibility\1. After - Drawing Shape\Contracts\IDrawingManager.cs" />
+    <Compile Include="1. Single Responsibility\1. After - Drawing Shape\Contracts\IRenderer.cs" />
+    <Compile Include="1. Single Responsibility\1. After - Drawing Shape\Contracts\IShape.cs" />
+    <Compile Include="1. Single Responsibility\1. After - Drawing Shape\DrawingManager.cs" />
+    <Compile Include="1. Single Responsibility\1. After - Drawing Shape\Rectangle.cs" />
+    <Compile Include="1. Single Responsibility\1. Before - Drawing Shape\DrawingManager.cs" />
+    <Compile Include="1. Single Responsibility\1. Before - Drawing Shape\Contracts\IDrawingContext.cs" />
+    <Compile Include="1. Single Responsibility\1. Before - Drawing Shape\Contracts\IRenderer.cs" />
+    <Compile Include="1. Single Responsibility\1. Before - Drawing Shape\Contracts\IShape.cs" />
+    <Compile Include="1. Single Responsibility\1. Before - Drawing Shape\Contracts\IDrawingManager.cs" />
+    <Compile Include="1. Single Responsibility\1. Before - Drawing Shape\Rectangle.cs" />
+    <Compile Include="1. Single Responsibility\2. After - Books\Book.cs" />
+    <Compile Include="1. Single Responsibility\2. After - Books\Library.cs" />
+    <Compile Include="1. Single Responsibility\2. Before - Books\Book.cs" />
+    <Compile Include="2. Open - Closed\1. After - File Stream\File.cs" />
+    <Compile Include="2. Open - Closed\1. After - File Stream\Contracts\IResult.cs" />
+    <Compile Include="2. Open - Closed\1. After - File Stream\Music.cs" />
+    <Compile Include="2. Open - Closed\1. After - File Stream\Progress.cs" />
+    <Compile Include="2. Open - Closed\1. Before - File Stream\File.cs" />
+    <Compile Include="2. Open - Closed\1. Before - File Stream\Music.cs" />
+    <Compile Include="2. Open - Closed\1. Before - File Stream\Progress.cs" />
+    <Compile Include="2. Open - Closed\2. After - Drawing Shapes\Circle.cs" />
+    <Compile Include="2. Open - Closed\2. After - Drawing Shapes\CircleDrawingManager.cs" />
+    <Compile Include="2. Open - Closed\2. After - Drawing Shapes\Contracts\IDrawingManager.cs" />
+    <Compile Include="2. Open - Closed\2. After - Drawing Shapes\Contracts\IShape.cs" />
+    <Compile Include="2. Open - Closed\2. After - Drawing Shapes\DrawingManager.cs" />
+    <Compile Include="2. Open - Closed\2. After - Drawing Shapes\Rectangle.cs" />
+    <Compile Include="2. Open - Closed\2. After - Drawing Shapes\RectangleDrawingManager.cs" />
+    <Compile Include="2. Open - Closed\2. Before - Drawing Shapes\Circle.cs" />
+    <Compile Include="2. Open - Closed\2. Before - Drawing Shapes\Contracts\IDrawingManager.cs" />
+    <Compile Include="2. Open - Closed\2. Before - Drawing Shapes\Contracts\IShape.cs" />
+    <Compile Include="2. Open - Closed\2. Before - Drawing Shapes\Rectangle.cs" />
+    <Compile Include="2. Open - Closed\2. Before - Drawing Shapes\DrawingManager.cs" />
+    <Compile Include="2. Open - Closed\3. After - Shopping Cart\Buy4GetOneFree.cs" />
+    <Compile Include="2. Open - Closed\3. After - Shopping Cart\Cart.cs" />
+    <Compile Include="2. Open - Closed\3. After - Shopping Cart\EachPriceRule.cs" />
+    <Compile Include="2. Open - Closed\3. After - Shopping Cart\IPriceRule.cs" />
+    <Compile Include="2. Open - Closed\3. After - Shopping Cart\IPricingCalculator.cs" />
+    <Compile Include="2. Open - Closed\3. After - Shopping Cart\OrderItem.cs" />
+    <Compile Include="2. Open - Closed\3. After - Shopping Cart\PerGramPriceRule.cs" />
+    <Compile Include="2. Open - Closed\3. After - Shopping Cart\PricingCalculator.cs" />
+    <Compile Include="2. Open - Closed\3. After - Shopping Cart\SpecialPriceRule.cs" />
+    <Compile Include="2. Open - Closed\3. Before - Shopping Cart\Cart.cs" />
+    <Compile Include="2. Open - Closed\3. Before - Shopping Cart\OnlineOrder.cs" />
+    <Compile Include="2. Open - Closed\3. Before - Shopping Cart\Order.cs" />
+    <Compile Include="2. Open - Closed\3. Before - Shopping Cart\OrderItem.cs" />
+    <Compile Include="2. Open - Closed\3. Before - Shopping Cart\PaymentDetails.cs" />
+    <Compile Include="3. Liskov Substitution\1. After - Square\Rectangle.cs" />
+    <Compile Include="3. Liskov Substitution\1. After - Square\Shape.cs" />
+    <Compile Include="3. Liskov Substitution\1. After - Square\Square.cs" />
+    <Compile Include="3. Liskov Substitution\1. Before - Square\Rectangle.cs" />
+    <Compile Include="3. Liskov Substitution\1. Before - Square\Shape.cs" />
+    <Compile Include="3. Liskov Substitution\1. Before - Square\Square.cs" />
+    <Compile Include="3. Liskov Substitution\2. After - Employees\DetailsPrinter.cs" />
+    <Compile Include="3. Liskov Substitution\2. After - Employees\Employee.cs" />
+    <Compile Include="3. Liskov Substitution\2. After - Employees\Manager.cs" />
+    <Compile Include="3. Liskov Substitution\2. Before - Employees\DetailsPrinter.cs" />
+    <Compile Include="3. Liskov Substitution\2. Before - Employees\Employee.cs" />
+    <Compile Include="3. Liskov Substitution\2. Before - Employees\Manager.cs" />
+    <Compile Include="3. Liskov Substitution\3. After - Movement\Contracts\IMovable.cs" />
+    <Compile Include="3. Liskov Substitution\3. After - Movement\Contracts\IRotatable.cs" />
+    <Compile Include="3. Liskov Substitution\3. After - Movement\Contracts\ITranslatable.cs" />
+    <Compile Include="3. Liskov Substitution\3. After - Movement\MovableObject.cs" />
+    <Compile Include="3. Liskov Substitution\3. After - Movement\RotatableObject.cs" />
+    <Compile Include="3. Liskov Substitution\3. After - Movement\TranslatableObject.cs" />
+    <Compile Include="3. Liskov Substitution\3. Before - Movement\Contracts\IMovable.cs" />
+    <Compile Include="3. Liskov Substitution\3. Before - Movement\MovableObject.cs" />
+    <Compile Include="3. Liskov Substitution\3. Before - Movement\RotatableObject.cs" />
+    <Compile Include="3. Liskov Substitution\3. Before - Movement\TranslatableObject.cs" />
+    <Compile Include="4. Interface Segregation\1. Worker - After\Contracts\IEater.cs" />
+    <Compile Include="4. Interface Segregation\1. Worker - After\Contracts\ISleeper.cs" />
+    <Compile Include="4. Interface Segregation\1. Worker - After\Contracts\IWorker.cs" />
+    <Compile Include="4. Interface Segregation\1. Worker - After\Human.cs" />
+    <Compile Include="4. Interface Segregation\1. Worker - After\Robot.cs" />
+    <Compile Include="4. Interface Segregation\1. Worker - Before\Contracts\IWorker.cs" />
+    <Compile Include="4. Interface Segregation\1. Worker - Before\Human.cs" />
+    <Compile Include="4. Interface Segregation\1. Worker - Before\Robot.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - After\AccountContoller.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - After\AccountManager.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - After\Contracts\IAccountAuthenticator.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - After\Contracts\IAccountManager.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - After\Contracts\IAccountSettings.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - After\Contracts\IAccountFinder.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - After\Contracts\IUser.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - Before\AccountContoller.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - Before\Contracts\IAccount.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - Before\Contracts\IUser.cs" />
+    <Compile Include="4. Interface Segregation\2. Identity - Before\AccountManager.cs" />
+    <Compile Include="5. Dependency Inversion\1. Hello World - After\HelloWorld.cs" />
+    <Compile Include="5. Dependency Inversion\1. Hello World - Before\HelloWorld.cs" />
+    <Compile Include="5. Dependency Inversion\2. Worker - After\Contracts\IWorker.cs" />
+    <Compile Include="5. Dependency Inversion\2. Worker - After\HighPerformer.cs" />
+    <Compile Include="5. Dependency Inversion\2. Worker - After\Manager.cs" />
+    <Compile Include="5. Dependency Inversion\2. Worker - After\Worker.cs" />
+    <Compile Include="5. Dependency Inversion\2. Worker - Before\Manager.cs" />
+    <Compile Include="5. Dependency Inversion\2. Worker - Before\Worker.cs" />
+    <Compile Include="5. Dependency Inversion\3. Database - After\Contracts\ICourseData.cs" />
+    <Compile Include="5. Dependency Inversion\3. Database - After\CoursesConstructor.cs" />
+    <Compile Include="5. Dependency Inversion\3. Database - After\CourseData.cs" />
+    <Compile Include="5. Dependency Inversion\3. Database - After\CoursesParameter.cs" />
+    <Compile Include="5. Dependency Inversion\3. Database - After\CoursesProperty.cs" />
+    <Compile Include="5. Dependency Inversion\3. Database - Before\Courses.cs" />
+    <Compile Include="5. Dependency Inversion\3. Database - Before\Data.cs" />
+    <Compile Include="5. Dependency Inversion\3. Database - Before\Static\Courses.cs" />
+    <Compile Include="5. Dependency Inversion\3. Database - Before\Static\Data.cs" />
+    <Compile Include="6. Don%27t Repeat Yourself\1. Students Ordering - After\Student.cs" />
+    <Compile Include="6. Don%27t Repeat Yourself\1. Students Ordering - After\StudentData.cs" />
+    <Compile Include="6. Don%27t Repeat Yourself\1. Students Ordering - Before\Student.cs" />
+    <Compile Include="6. Don%27t Repeat Yourself\1. Students Ordering - Before\StudentData.cs" />
+    <Compile Include="7. You Ain%27t Gonna Need It\1. Bicycle - After\IBicycle.cs" />
+    <Compile Include="7. You Ain%27t Gonna Need It\1. Bicycle - Before\IBicycle.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - After\Mp3Mover.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Contracts\IFileMoveStrategy.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Contracts\IFileMoveStrategyFactory.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Contracts\IFileRenameStrategy.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Contracts\IFileRenameStrategyFactory.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Contracts\IFileSelectStrategy.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Contracts\IFileSelectStrategyFactory.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Contracts\IMp3Mover.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Factories\FileMoveStrategyFactory.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Factories\FileRenameStrategyFactory.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Factories\FileSelectStrategyFactory.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Mp3Mover.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Mp3MoverProgram.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Strategies\MoveStrategies\NormalMoveStrategy.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Strategies\RenameStrategies\RemoveArtistRenameStrategy.cs" />
+    <Compile Include="8. Keep It Simple, Stupid\1. MP3 Mover - Before\Strategies\SelectStrategies\ArtistDashSongStrategy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

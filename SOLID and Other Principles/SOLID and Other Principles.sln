@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID and Other Principles", "SOLID and Other Principles\SOLID and Other Principles.csproj", "{7361AF5D-2F35-4094-8215-04F3FC7C3EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjectIoCContainer", "NinjectIoCContainer\NinjectIoCContainer.csproj", "{180CD21D-BE94-4F32-B6CA-C384578BCBD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7361AF5D-2F35-4094-8215-04F3FC7C3EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7361AF5D-2F35-4094-8215-04F3FC7C3EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7361AF5D-2F35-4094-8215-04F3FC7C3EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7361AF5D-2F35-4094-8215-04F3FC7C3EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180CD21D-BE94-4F32-B6CA-C384578BCBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180CD21D-BE94-4F32-B6CA-C384578BCBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180CD21D-BE94-4F32-B6CA-C384578BCBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180CD21D-BE94-4F32-B6CA-C384578BCBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
