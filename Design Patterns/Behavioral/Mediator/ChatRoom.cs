@@ -5,7 +5,7 @@
     /// <summary>
     /// The 'ConcreteMediator' class
     /// </summary>
-    internal class ChatRoom : AbstractChatRoom
+    public class ChatRoom : AbstractChatRoom
     {
         private readonly Dictionary<string, Participant> participants =
             new Dictionary<string, Participant>();
@@ -27,6 +27,17 @@
             if (participant != null)
             {
                 participant.Receive(from, message);
+            }
+        }
+
+        public override void SendToAll(string @from, string message)
+        {
+            foreach (var participant in this.participants)
+            {
+                if (participant.Key != @from)
+                {
+                    participant.Value.Receive(from, message);
+                }
             }
         }
     }

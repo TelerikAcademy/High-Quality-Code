@@ -5,7 +5,7 @@
     /// <summary>
     /// A 'ConcreteColleague' class
     /// </summary>
-    internal class NonBeetle : Participant
+    public class NonBeetle : Participant
     {
         public NonBeetle(string name)
             : base(name)

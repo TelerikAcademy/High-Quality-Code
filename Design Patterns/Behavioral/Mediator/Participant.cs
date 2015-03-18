@@ -5,12 +5,12 @@
     /// <summary>
     /// The 'AbstractColleague' class
     /// </summary>
-    internal class Participant
+    public abstract class Participant
     {
         private readonly string name;
         private ChatRoom chatRoom;
 
-        public Participant(string name)
+        protected Participant(string name)
         {
             this.name = name;
         }
@@ -29,6 +29,11 @@
         public void Send(string to, string message)
         {
             this.chatRoom.Send(this.name, to, message);
+        }
+
+        public void SendToAll(string message)
+        {
+            this.chatRoom.SendToAll(this.name, message);
         }
 
         public virtual void Receive(string from, string message)
