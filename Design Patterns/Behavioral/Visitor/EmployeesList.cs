@@ -3,10 +3,13 @@
     using System;
     using System.Collections.Generic;
 
+    using Visitor.Employees;
+    using Visitor.Visitors;
+
     /// <summary>
     /// The 'ObjectStructure' class
     /// </summary>
-    internal class Employees
+    internal class EmployeesList
     {
         private readonly List<Employee> employees = new List<Employee>();
 
