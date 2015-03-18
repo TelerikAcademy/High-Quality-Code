@@ -41,16 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employees\Clerk.cs" />
-    <Compile Include="Employees\Director.cs" />
-    <Compile Include="Employees\Employee.cs" />
-    <Compile Include="EmployeesList.cs" />
-    <Compile Include="Visitors\IncomeVisitor.cs" />
-    <Compile Include="Visitors\IVisitor.cs" />
-    <Compile Include="Employees\President.cs" />
+    <Compile Include="EmployeesDemo\Employees\Clerk.cs" />
+    <Compile Include="EmployeesDemo\Employees\Director.cs" />
+    <Compile Include="EmployeesDemo\Employees\Employee.cs" />
+    <Compile Include="EmployeesDemo\EmployeesList.cs" />
+    <Compile Include="EmployeesDemo\Visitors\IncomeVisitor.cs" />
+    <Compile Include="EmployeesDemo\Visitors\IVisitor.cs" />
+    <Compile Include="EmployeesDemo\Employees\President.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Visitors\VacationVisitor.cs" />
+    <Compile Include="EmployeesDemo\Visitors\VacationVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,6 +1,6 @@
-﻿namespace Visitor.Visitors
+﻿namespace Visitor.EmployeesDemo.Visitors
 {
-    using Visitor.Employees;
+    using Visitor.EmployeesDemo.Employees;
 
     /// <summary>
     /// The 'Visitor' interface

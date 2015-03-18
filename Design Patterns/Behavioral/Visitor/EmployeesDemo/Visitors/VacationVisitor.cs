@@ -1,8 +1,8 @@
-﻿namespace Visitor.Visitors
+﻿namespace Visitor.EmployeesDemo.Visitors
 {
     using System;
 
-    using Visitor.Employees;
+    using Visitor.EmployeesDemo.Employees;
 
     /// <summary>
     /// A 'ConcreteVisitor' class

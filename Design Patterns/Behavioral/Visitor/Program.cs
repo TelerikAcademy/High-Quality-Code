@@ -1,13 +1,17 @@
 ﻿namespace Visitor
 {
-    using System;
+    using Visitor.EmployeesDemo;
+    using Visitor.EmployeesDemo.Employees;
+    using Visitor.EmployeesDemo.Visitors;
 
-    using Visitor.Employees;
-    using Visitor.Visitors;
-
-    internal class Program
+    public class Program
     {
-        internal static void Main()
+        public static void Main()
+        {
+            EmployeesDemo();
+        }
+
+        private static void EmployeesDemo()
         {
             var ivan = new Clerk { Name = "Ivan", Income = 20000, VacationDays = 8 };
             var peter = new Clerk { Name = "Peter", Income = 25000, VacationDays = 14 };

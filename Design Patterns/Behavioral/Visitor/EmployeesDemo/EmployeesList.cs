@@ -1,10 +1,10 @@
-﻿namespace Visitor
+﻿namespace Visitor.EmployeesDemo
 {
     using System;
     using System.Collections.Generic;
 
-    using Visitor.Employees;
-    using Visitor.Visitors;
+    using Visitor.EmployeesDemo.Employees;
+    using Visitor.EmployeesDemo.Visitors;
 
     /// <summary>
     /// The 'ObjectStructure' class

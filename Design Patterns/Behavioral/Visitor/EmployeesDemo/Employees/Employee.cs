@@ -1,6 +1,6 @@
-﻿namespace Visitor.Employees
+﻿namespace Visitor.EmployeesDemo.Employees
 {
-    using Visitor.Visitors;
+    using Visitor.EmployeesDemo.Visitors;
 
     /// <summary>
     /// The 'Element' class
