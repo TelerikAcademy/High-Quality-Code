@@ -1,9 +1,9 @@
-﻿namespace Observer
+﻿namespace Observer.ClearImplementation
 {
     /// <summary>
     /// The 'Observer' interface
     /// </summary>
-    internal interface IInvestor
+    public interface IInvestor
     {
         void Update(Stock stock);
     }

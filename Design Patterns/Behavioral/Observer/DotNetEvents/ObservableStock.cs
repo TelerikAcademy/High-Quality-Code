@@ -1,22 +1,27 @@
-﻿namespace Observer
+﻿namespace Observer.DotNetEvents
 {
     using System;
-    using System.Collections.Generic;
 
     /// <summary>
-    /// The 'Subject' abstract class
+    /// The 'Observer' interface
     /// </summary>
-    internal abstract class Stock
+    public delegate void StockPriceChangedHandler(object sender, StockPriceChangedEventArgs e);
+
+    /// <summary>
+    /// The 'ConcreteSubject' class
+    /// </summary>
+    public class ObservableStock
     {
-        private readonly List<IInvestor> investors = new List<IInvestor>();
         private readonly string symbol;
         private double price;
 
-        protected Stock(string symbol, double price)
+        public ObservableStock(string symbol, double price)
         {
             this.symbol = symbol;
             this.price = price;
         }
+
+        public event StockPriceChangedHandler StockPriceChanged;
 
         public double Price
         {
@@ -40,24 +45,12 @@
             get { return this.symbol; }
         }
 
-        public void Attach(IInvestor investor)
+        private void Notify()
         {
-            this.investors.Add(investor);
-        }
-
-        public void Detach(IInvestor investor)
-        {
-            this.investors.Remove(investor);
-        }
-
-        public void Notify()
-        {
-            foreach (IInvestor investor in this.investors)
+            if (this.StockPriceChanged != null)
             {
-                investor.Update(this);
+                this.StockPriceChanged(this, new StockPriceChangedEventArgs(this));
             }
-
-            Console.WriteLine(string.Empty);
         }
     }
 }
