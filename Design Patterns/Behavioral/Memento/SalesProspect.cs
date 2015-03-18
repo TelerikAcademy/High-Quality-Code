@@ -5,7 +5,7 @@
     /// <summary>
     /// The 'Originator' class
     /// </summary>
-    internal class SalesProspect
+    public class SalesProspect
     {
         private string name;
         private string phone;
@@ -55,13 +55,11 @@
 
         public Memento SaveMemento()
         {
-            Console.WriteLine("\nSaving state --\n");
             return new Memento(this.name, this.phone, this.budget);
         }
 
         public void RestoreMemento(Memento memento)
         {
-            Console.WriteLine("\nRestoring state --\n");
             this.Name = memento.Name;
             this.Phone = memento.Phone;
             this.Budget = memento.Budget;

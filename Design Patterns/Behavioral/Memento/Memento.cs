@@ -3,7 +3,7 @@
     /// <summary>
     /// The 'Memento' class
     /// </summary>
-    internal class Memento
+    public class Memento
     {
         public Memento(string name, string phone, double budget)
         {

@@ -21,7 +21,6 @@
             Participant yoko = new NonBeetle("Yoko");
             chatRoom.Register(yoko);
 
-
             yoko.Send("John", "Hi John!");
             paul.Send("Ringo", "All you need is love");
             ringo.Send("George", "My sweet Lord");

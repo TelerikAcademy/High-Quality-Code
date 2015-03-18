@@ -10,6 +10,7 @@
 
             // Store internal state
             var memory = new ProspectMemory();
+            Console.WriteLine("\nSaving state --\n");
             memory.Memento = sale.SaveMemento();
 
             // Continue changing originator
@@ -18,6 +19,7 @@
             sale.Budget = 1000000.0;
 
             // Restore saved state
+            Console.WriteLine("\nRestoring state --\n");
             sale.RestoreMemento(memory.Memento);
         }
     }
