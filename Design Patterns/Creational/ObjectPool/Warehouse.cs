@@ -11,8 +11,8 @@
     /// </summary>
     public class Warehouse<T> where T : IDisposable, new()
     {
-        private List<T> availableEquipment = new List<T>();
-        private List<T> usedEquipment = new List<T>();
+        private readonly List<T> availableEquipment = new List<T>();
+        private readonly List<T> usedEquipment = new List<T>();
 
         // We can define the size of the pool in constructor
         public Warehouse()
@@ -21,19 +21,19 @@
 
         public T GetEquipment()
         {
-            lock (availableEquipment)
+            lock (this.availableEquipment)
             {
-                if (availableEquipment.Count != 0)
+                if (this.availableEquipment.Count != 0)
                 {
-                    var equipment = availableEquipment[0];
-                    usedEquipment.Add(equipment);
-                    availableEquipment.RemoveAt(0);
+                    var equipment = this.availableEquipment[0];
+                    this.usedEquipment.Add(equipment);
+                    this.availableEquipment.RemoveAt(0);
                     return equipment;
                 }
                 else
                 {
                     var equipment = new T();
-                    usedEquipment.Add(equipment);
+                    this.usedEquipment.Add(equipment);
                     return equipment;
                 }
             }
@@ -43,10 +43,10 @@
         {
             equipment.Dispose();
 
-            lock (availableEquipment)
+            lock (this.availableEquipment)
             {
-                availableEquipment.Add(equipment);
-                usedEquipment.Remove(equipment);
+                this.availableEquipment.Add(equipment);
+                this.usedEquipment.Remove(equipment);
             }
         }
     }

@@ -4,10 +4,10 @@
 
     internal class Buyable : Decorator
     {
-        private int price;
+        private readonly int price;
 
         public Buyable(LibraryItem item, int price)
-            :base(item)
+            : base(item)
         {
             this.price = price;
         }

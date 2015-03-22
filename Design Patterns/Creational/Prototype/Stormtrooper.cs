@@ -1,7 +1,7 @@
-﻿using System;
-using System.Threading;
-namespace Prototype
+﻿namespace Prototype
 {
+    using System.Threading;
+
     public class Stormtrooper : StormtrooperPrototype
     {
         public Stormtrooper(string type, int height, int weight)

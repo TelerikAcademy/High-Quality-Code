@@ -7,11 +7,11 @@
     /// </summary>
     public class Equipment : IDisposable
     {
-        DateTime orderedAt = DateTime.Now;
+        private readonly DateTime orderedAt = DateTime.Now;
 
         public DateTime OrderedAt
         {
-            get { return orderedAt; }
+            get { return this.orderedAt; }
         }
 
         public string EmployeeName { get; set; }

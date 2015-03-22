@@ -17,6 +17,7 @@
 
                 return base.Roles;
             }
+
             set
             {
                 base.Roles = value;

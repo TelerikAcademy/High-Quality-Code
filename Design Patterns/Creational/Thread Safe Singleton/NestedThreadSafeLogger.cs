@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Diagnostics.CodeAnalysis;
 
     public sealed class NestedThreadSafeLogger
     {
@@ -39,6 +40,8 @@
 
             // Explicit static constructor to tell C# compiler not to mark type as beforefieldinit
             // which will initialize the fields (Instance) just before their first use (not earlier)
+            [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1409:RemoveUnnecessaryCode",
+                Justification = "Reviewed. Suppression is OK here.")]
             static SingletonContainer()
             {
             }

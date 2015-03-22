@@ -9,22 +9,20 @@
     {
         // internal collection of items
         // IDictionary makes sure they are unique
-        private IDictionary<LazyObjectType, LazyObject> _LazyObjectList =
-            new Dictionary<LazyObjectType, LazyObject>();
-
+        private IDictionary<LazyObjectType, LazyObject> lazyObjectList = new Dictionary<LazyObjectType, LazyObject>();
 
         public LazyObject GetLazyFactoryObject(LazyObjectType name)
         {
             LazyObject noGoodSomeOne;
 
             // retrieves LazyObjectType from list via out, else creates one and adds it to list
-            if (!_LazyObjectList.TryGetValue(name, out noGoodSomeOne))
+            if (!this.lazyObjectList.TryGetValue(name, out noGoodSomeOne))
             {
                 noGoodSomeOne = new LazyObject();
                 noGoodSomeOne.Name = name;
                 noGoodSomeOne.Result = this.Result(name);
 
-                _LazyObjectList.Add(name, noGoodSomeOne);
+                this.lazyObjectList.Add(name, noGoodSomeOne);
             }
 
             return noGoodSomeOne;
@@ -38,16 +36,16 @@
             switch (name)
             {
                 case LazyObjectType.Small:
-                    result = CreateSomeExpensiveList(1, 100);
+                    result = this.CreateSomeExpensiveList(1, 100);
                     break;
                 case LazyObjectType.Big:
-                    result = CreateSomeExpensiveList(1, 1000);
+                    result = this.CreateSomeExpensiveList(1, 1000);
                     break;
                 case LazyObjectType.Bigger:
-                    result = CreateSomeExpensiveList(1, 10000);
+                    result = this.CreateSomeExpensiveList(1, 10000);
                     break;
                 case LazyObjectType.Huge:
-                    result = CreateSomeExpensiveList(1, 100000);
+                    result = this.CreateSomeExpensiveList(1, 100000);
                     break;
                 case LazyObjectType.None:
                     result = null;
