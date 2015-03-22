@@ -2,22 +2,21 @@
 {
     using System;
 
+    using State.States;
+
     /// <summary>
     /// The 'Context' class
     /// </summary>
-    internal class Account
+    public class Account
     {
         public Account(string owner)
         {
             // New accounts are 'Silver' by default
             this.Owner = owner;
-            this.State = new SilverState(0.0, this);
+            this.State = new SilverState(this);
         }
 
-        public double Balance
-        {
-            get { return this.State.Balance; }
-        }
+        public double Balance { get; set; }
 
         public State State { get; set; }
 
