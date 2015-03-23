@@ -29,21 +29,21 @@
             var numberOfCommands = int.Parse(Console.ReadLine());
             for (int i = 0; i < numberOfCommands; i++)
             {
-                Console.Write("Please enter command (ON or OFF): ");
-                var arg = Console.ReadLine(); // ON or OFF
-                if (arg == "ON")
+                Console.Write("Please enter command (OPEN or CLOSE): ");
+                var arg = Console.ReadLine(); // OPEN or CLOSE
+                if (arg == "OPEN")
                 {
                     // Switch (the Invoker) will invoke Execute() (the Command) on the command object
                     @switch.StoreAndExecute(switchOpen);
                 }
-                else if (arg == "OFF")
+                else if (arg == "CLOSE")
                 {
                     // Switch (the Invoker) will invoke the Execute() (the Command) on the command object
                     @switch.StoreAndExecute(switchClose);
                 }
                 else
                 {
-                    Console.WriteLine("Argument \"ON\" or \"OFF\" is required.");
+                    Console.WriteLine("Argument \"OPEN\" or \"CLOSE\" is required.");
                 }
             }
 
