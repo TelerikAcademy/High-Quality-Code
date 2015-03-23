@@ -1,4 +1,7 @@
-﻿public interface ILogger
+﻿namespace Strategy
 {
-    void Log(string message);
+    public interface ILogger
+    {
+        void Log(string message);
+    }
 }

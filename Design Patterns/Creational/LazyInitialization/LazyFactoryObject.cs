@@ -9,7 +9,7 @@
     {
         // internal collection of items
         // IDictionary makes sure they are unique
-        private IDictionary<LazyObjectType, LazyObject> lazyObjectList = new Dictionary<LazyObjectType, LazyObject>();
+        private readonly IDictionary<LazyObjectType, LazyObject> lazyObjectList = new Dictionary<LazyObjectType, LazyObject>();
 
         public LazyObject GetLazyFactoryObject(LazyObjectType name)
         {
@@ -18,9 +18,7 @@
             // retrieves LazyObjectType from list via out, else creates one and adds it to list
             if (!this.lazyObjectList.TryGetValue(name, out noGoodSomeOne))
             {
-                noGoodSomeOne = new LazyObject();
-                noGoodSomeOne.Name = name;
-                noGoodSomeOne.Result = this.Result(name);
+                noGoodSomeOne = new LazyObject { Name = name, Result = this.Result(name) };
 
                 this.lazyObjectList.Add(name, noGoodSomeOne);
             }
@@ -31,7 +29,7 @@
         // takes type and create 'expensive' list
         private IList<int> Result(LazyObjectType name)
         {
-            IList<int> result = null;
+            IList<int> result;
 
             switch (name)
             {

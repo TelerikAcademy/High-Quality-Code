@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 
+using Strategy;
+
 public class FileLogger : ILogger
 {
     private readonly string filePath;

@@ -2,7 +2,6 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Runtime.Remoting.Metadata.W3cXsd2001;
 
     using Interpreter.PolishNotationExample;
     using Interpreter.PolishNotationExample.Expressions;

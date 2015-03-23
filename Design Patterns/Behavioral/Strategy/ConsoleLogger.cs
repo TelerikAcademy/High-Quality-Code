@@ -1,9 +1,12 @@
-﻿using System;
-
-public class ConsoleLogger : ILogger
+﻿namespace Strategy
 {
-    public void Log(string message)
+    using System;
+
+    public class ConsoleLogger : ILogger
     {
-        Console.WriteLine("[{0}] {1}", DateTime.Now.ToLongTimeString(), message);
+        public void Log(string message)
+        {
+            Console.WriteLine("[{0}] {1}", DateTime.Now.ToLongTimeString(), message);
+        }
     }
 }

@@ -8,7 +8,6 @@
     internal class RichCompound : ICompound
     {
         private readonly string chemical;
-        private readonly ChemicalDatabank bank;
 
         private readonly float boilingPoint;
         private readonly float meltingPoint;
@@ -18,12 +17,12 @@
         public RichCompound(string chemical)
         {
             this.chemical = chemical;
-            this.bank = new ChemicalDatabank();
+            var bank = new ChemicalDatabank();
 
-            this.boilingPoint = this.bank.GetCriticalPoint(this.chemical, "B");
-            this.meltingPoint = this.bank.GetCriticalPoint(chemical, "M");
-            this.molecularWeight = this.bank.GetMolecularWeight(chemical);
-            this.molecularFormula = this.bank.GetMolecularStructure(chemical);
+            this.boilingPoint = bank.GetCriticalPoint(this.chemical, "B");
+            this.meltingPoint = bank.GetCriticalPoint(chemical, "M");
+            this.molecularWeight = bank.GetMolecularWeight(chemical);
+            this.molecularFormula = bank.GetMolecularStructure(chemical);
         }
 
         public void Display()

@@ -34,5 +34,10 @@
 
             return other.Id == this.Id;
         }
+
+        public override int GetHashCode()
+        {
+            return this.Id.GetHashCode();
+        }
     }
 }

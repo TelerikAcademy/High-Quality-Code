@@ -1,10 +1,8 @@
 ﻿namespace ChainOfResponsibility
 {
-    using System;
-
-    internal class Program
+    public static class Program
     {
-        internal static void Main()
+        public static void Main()
         {
             Approver teamLead = new TeamLead();
             Approver vp = new VicePresident();

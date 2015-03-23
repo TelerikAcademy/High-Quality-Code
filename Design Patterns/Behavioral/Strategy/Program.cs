@@ -1,30 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-
-public static class Program
+﻿namespace Strategy
 {
-    public static void Main()
-    {
-        IComparerDemo();
-        Console.WriteLine(new string('-', 60));
-        LoggerDemo();
-    }
+    using System;
+    using System.Collections.Generic;
 
-    private static void IComparerDemo()
+    public static class Program
     {
-        var list = new List<int> { 1, 3, 5, 6, 8, 19, 100, 123, 1337 };
-        list.Sort((first, second) => (first % 3).CompareTo(second % 3));
-        //// list.Sort((first, second) => second.CompareTo(first)); // Different strategy
-        foreach (var item in list)
+        public static void Main()
         {
-            Console.WriteLine(item);
+            IComparerDemo();
+            Console.WriteLine(new string('-', 60));
+            LoggerDemo();
         }
-    }
 
-    private static void LoggerDemo()
-    {
-        var logger = new FileLogger("log.txt"); // ConsoleLogger();
-        var doSomethingImportant = new DoSomethingImportant(logger);
-        doSomethingImportant.DoTheJob();
+        private static void IComparerDemo()
+        {
+            var list = new List<int> { 1, 3, 5, 6, 8, 19, 100, 123, 1337 };
+            list.Sort((first, second) => (first % 3).CompareTo(second % 3));
+            //// list.Sort((first, second) => second.CompareTo(first)); // Different strategy
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        private static void LoggerDemo()
+        {
+            var logger = new FileLogger("log.txt"); // ConsoleLogger();
+            var doSomethingImportant = new DoSomethingImportant(logger);
+            doSomethingImportant.DoTheJob();
+        }
     }
 }
