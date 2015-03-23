@@ -2,9 +2,9 @@
 {
     using System;
 
-    internal class Program
+    public static class Program
     {
-        internal static void Main()
+        public static void Main()
         {
             var sale = new SalesProspect { Name = "Noel van Halen", Phone = "(412) 256-0990", Budget = 25000.0 };
 

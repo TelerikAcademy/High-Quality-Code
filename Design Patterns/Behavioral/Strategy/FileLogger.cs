@@ -1,20 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-
-using Strategy;
-
-public class FileLogger : ILogger
+﻿namespace Strategy
 {
-    private readonly string filePath;
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
 
-    public FileLogger(string filePath)
+    public class FileLogger : ILogger
     {
-        this.filePath = filePath;
-    }
+        private readonly string filePath;
 
-    public void Log(string message)
-    {
-        File.AppendAllLines(this.filePath, new List<string> { string.Format("[{0}] {1}", DateTime.Now, message) });
+        public FileLogger(string filePath)
+        {
+            this.filePath = filePath;
+        }
+
+        public void Log(string message)
+        {
+            File.AppendAllLines(this.filePath, new List<string> { string.Format("[{0}] {1}", DateTime.Now, message) });
+        }
     }
 }

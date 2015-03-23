@@ -13,7 +13,7 @@
             var documents = new List<Manuscript>();
             var formatter = new FancyFormatter(); // new BackwardsFormatter();
 
-            var faq = new FAQ(formatter) { Title = "The Bridge Pattern FAQ" };
+            var faq = new Faq(formatter) { Title = "The Bridge Pattern FAQ" };
             faq.Questions.Add("What is it?", "A design pattern");
             faq.Questions.Add("When do we use it?", "When you need to separate an abstraction from an implementation.");
             documents.Add(faq);

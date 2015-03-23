@@ -4,7 +4,7 @@
 
     using AbstractFactory.Factories;
 
-    public class Program
+    public static class Program
     {
         public static void Main()
         {

@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class Program
+    public static class Program
     {
         public static void Main()
         {
@@ -37,13 +37,13 @@
 
         private static void StringsDemo()
         {
-            string s1 = "some value";
-            string s2 = "some value";
-            string s3 = Console.ReadLine();
-            string s4 = string.Intern(s3);
-            Console.WriteLine(object.ReferenceEquals(s1, s2));
-            Console.WriteLine(object.ReferenceEquals(s1, s3));
-            Console.WriteLine(object.ReferenceEquals(s1, s4));
+            string str1 = "some value";
+            string str2 = "some value";
+            string str3 = Console.ReadLine();
+            string str4 = string.Intern(str3);
+            Console.WriteLine(ReferenceEquals(str1, str2));
+            Console.WriteLine(ReferenceEquals(str1, str3));
+            Console.WriteLine(ReferenceEquals(str1, str4));
         }
     }
 }

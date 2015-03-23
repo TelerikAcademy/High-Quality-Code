@@ -5,9 +5,9 @@
 
     using Bridge.Formatters;
 
-    internal class FAQ : Manuscript
+    internal class Faq : Manuscript
     {
-        public FAQ(IFormatter formatter)
+        public Faq(IFormatter formatter)
             : base(formatter)
         {
             this.Questions = new Dictionary<string, string>();

@@ -44,7 +44,7 @@
     <Compile Include="Formatters\BackwardsFormatter.cs" />
     <Compile Include="Manuscripts\Book.cs" />
     <Compile Include="Formatters\FancyFormatter.cs" />
-    <Compile Include="Manuscripts\FAQ.cs" />
+    <Compile Include="Manuscripts\Faq.cs" />
     <Compile Include="Formatters\IFormatter.cs" />
     <Compile Include="Manuscripts\Manuscript.cs" />
     <Compile Include="Program.cs" />

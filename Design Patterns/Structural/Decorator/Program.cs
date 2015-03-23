@@ -2,9 +2,9 @@
 {
     using System;
 
-    internal class Program
+    public static class Program
     {
-        internal static void Main()
+        public static void Main()
         {
             // Create book
             var book = new Book("Microsoft", "CLR via C# 4", 10);

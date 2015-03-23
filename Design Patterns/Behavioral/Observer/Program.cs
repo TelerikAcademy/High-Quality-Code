@@ -5,7 +5,7 @@
     using Observer.ClearImplementation;
     using Observer.DotNetEvents;
 
-    public class Program
+    public static class Program
     {
         public static void Main()
         {

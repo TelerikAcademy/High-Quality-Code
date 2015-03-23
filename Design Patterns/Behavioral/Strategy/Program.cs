@@ -7,12 +7,12 @@
     {
         public static void Main()
         {
-            IComparerDemo();
+            ComparerDemo();
             Console.WriteLine(new string('-', 60));
             LoggerDemo();
         }
 
-        private static void IComparerDemo()
+        private static void ComparerDemo()
         {
             var list = new List<int> { 1, 3, 5, 6, 8, 19, 100, 123, 1337 };
             list.Sort((first, second) => (first % 3).CompareTo(second % 3));
