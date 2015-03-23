@@ -48,6 +48,14 @@
     <Compile Include="EmployeesDemo\Visitors\IncomeVisitor.cs" />
     <Compile Include="EmployeesDemo\Visitors\IVisitor.cs" />
     <Compile Include="EmployeesDemo\Employees\President.cs" />
+    <Compile Include="NetWorthDemo\Assets\BankAccount.cs" />
+    <Compile Include="NetWorthDemo\Assets\IAsset.cs" />
+    <Compile Include="NetWorthDemo\Visitors\IVisitor.cs" />
+    <Compile Include="NetWorthDemo\Assets\Loan.cs" />
+    <Compile Include="NetWorthDemo\Person.cs" />
+    <Compile Include="NetWorthDemo\Assets\RealEstate.cs" />
+    <Compile Include="NetWorthDemo\Visitors\MontlyIncomeVisitor.cs" />
+    <Compile Include="NetWorthDemo\Visitors\NetWorthVisitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EmployeesDemo\Visitors\VacationVisitor.cs" />
