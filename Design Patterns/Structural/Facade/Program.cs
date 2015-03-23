@@ -1,15 +1,15 @@
 ﻿namespace FacadePattern
 {
-    public class Program
+    public static class Program
     {
         public static void Main()
         {
-            HomeTheaterPro es = HomeTheaterPro.CreateInstance();
+            var homeTheaterPro = HomeTheaterPro.CreateInstance();
 
-            es.InitHomeSystem();
-            es.Next();
-            es.Next();
-            es.Stop();
+            homeTheaterPro.InitHomeSystem();
+            homeTheaterPro.Next();
+            homeTheaterPro.Next();
+            homeTheaterPro.Stop();
         }
     }
 }
