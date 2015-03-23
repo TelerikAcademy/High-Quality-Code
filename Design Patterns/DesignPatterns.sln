@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Iterator", "Behavioral\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. TemplateMethod", "Behavioral\TemplateMethod\03. TemplateMethod.csproj", "{1A553E91-A55F-4CA0-B7A8-19259AFC1298}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Specification", "Behavioral\Specification\12. Specification.csproj", "{27B6B6ED-6BB6-4C6D-9249-E7E02EF108D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{1A553E91-A55F-4CA0-B7A8-19259AFC1298}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A553E91-A55F-4CA0-B7A8-19259AFC1298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A553E91-A55F-4CA0-B7A8-19259AFC1298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B6B6ED-6BB6-4C6D-9249-E7E02EF108D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B6B6ED-6BB6-4C6D-9249-E7E02EF108D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B6B6ED-6BB6-4C6D-9249-E7E02EF108D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B6B6ED-6BB6-4C6D-9249-E7E02EF108D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -216,5 +222,6 @@ Global
 		{3D569EA9-DACF-45B6-83BB-15B2F6410BA5} = {1C122608-8829-4E59-AEA8-E2F7CA09A442}
 		{DA5D7368-F636-4ED1-87B3-1522E1FBE434} = {1C122608-8829-4E59-AEA8-E2F7CA09A442}
 		{1A553E91-A55F-4CA0-B7A8-19259AFC1298} = {1C122608-8829-4E59-AEA8-E2F7CA09A442}
+		{27B6B6ED-6BB6-4C6D-9249-E7E02EF108D5} = {1C122608-8829-4E59-AEA8-E2F7CA09A442}
 	EndGlobalSection
 EndGlobal
