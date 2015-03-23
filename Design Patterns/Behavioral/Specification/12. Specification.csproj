@@ -46,7 +46,7 @@
     <Compile Include="BaseLogic\ISpecification.cs" />
     <Compile Include="BaseLogic\NotSpecification.cs" />
     <Compile Include="BaseLogic\OrSpecification.cs" />
-    <Compile Include="ConcreteRules\InCollectionSpecification.cs" />
+    <Compile Include="ConcreteRules\SentForCollectionSpecification.cs" />
     <Compile Include="ConcreteRules\NoticeSentSpecification.cs" />
     <Compile Include="ConcreteRules\OverDueSpecification.cs" />
     <Compile Include="IInvoiceService.cs" />

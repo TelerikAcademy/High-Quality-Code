@@ -16,17 +16,9 @@
             this.wrapped = spec;
         }
 
-        protected ISpecification<TEntity> Wrapped
-        {
-            get
-            {
-                return this.wrapped;
-            }
-        }
-
         public bool IsSatisfiedBy(TEntity candidate)
         {
-            return !this.Wrapped.IsSatisfiedBy(candidate);
+            return !this.wrapped.IsSatisfiedBy(candidate);
         }
     }
 }

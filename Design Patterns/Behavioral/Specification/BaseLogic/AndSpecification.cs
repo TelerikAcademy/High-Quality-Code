@@ -23,25 +23,9 @@
             this.specification2 = specification2;
         }
 
-        protected ISpecification<TEntity> Specification1
-        {
-            get
-            {
-                return this.specification1;
-            }
-        }
-
-        protected ISpecification<TEntity> Specification2
-        {
-            get
-            {
-                return this.specification2;
-            }
-        }
-
         public bool IsSatisfiedBy(TEntity candidate)
         {
-            return this.Specification1.IsSatisfiedBy(candidate) && this.Specification2.IsSatisfiedBy(candidate);
+            return this.specification1.IsSatisfiedBy(candidate) && this.specification2.IsSatisfiedBy(candidate);
         }
     }
 }
