@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PolishNotationExample\Expressions\AdditionExpression.cs" />
+    <Compile Include="PolishNotationExample\Expressions\ExpressionBase.cs" />
+    <Compile Include="PolishNotationExample\Expressions\IntegerExpression.cs" />
+    <Compile Include="PolishNotationExample\Expressions\SubtractionExpression.cs" />
+    <Compile Include="PolishNotationExample\PolishNotationParser.cs" />
     <Compile Include="RomanNumbersExample\Context.cs" />
     <Compile Include="RomanNumbersExample\Expressions\Expression.cs" />
     <Compile Include="RomanNumbersExample\Expressions\HundredExpression.cs" />
