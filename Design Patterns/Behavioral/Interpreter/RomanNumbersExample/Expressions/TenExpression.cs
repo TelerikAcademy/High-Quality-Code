@@ -1,4 +1,4 @@
-﻿namespace Interpreter
+﻿namespace Interpreter.RomanNumbersExample.Expressions
 {
     /// <summary>
     /// A 'TerminalExpression' class
@@ -6,29 +6,29 @@
     /// Ten checks for X, XL, L and XC
     /// </remarks>
     /// </summary>
-    internal class TenExpression : Expression
+    public class TenExpression : Expression
     {
-        public override string One()
+        protected override string One()
         {
             return "X";
         }
 
-        public override string Four()
+        protected override string Four()
         {
             return "XL";
         }
 
-        public override string Five()
+        protected override string Five()
         {
             return "L";
         }
 
-        public override string Nine()
+        protected override string Nine()
         {
             return "XC";
         }
 
-        public override int Multiplier()
+        protected override int Multiplier()
         {
             return 10;
         }

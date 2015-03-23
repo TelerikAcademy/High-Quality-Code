@@ -1,9 +1,9 @@
-﻿namespace Interpreter
+﻿namespace Interpreter.RomanNumbersExample.Expressions
 {
     /// <summary>
     /// The 'AbstractExpression' class
     /// </summary>
-    internal abstract class Expression
+    public abstract class Expression
     {
         public void Interpret(Context context)
         {
@@ -35,14 +35,14 @@
             }
         }
 
-        public abstract string One();
+        protected abstract string One();
 
-        public abstract string Four();
+        protected abstract string Four();
 
-        public abstract string Five();
+        protected abstract string Five();
 
-        public abstract string Nine();
+        protected abstract string Nine();
 
-        public abstract int Multiplier();
+        protected abstract int Multiplier();
     }
 }

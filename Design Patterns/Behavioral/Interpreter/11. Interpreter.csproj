@@ -41,14 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context.cs" />
-    <Compile Include="Expression.cs" />
-    <Compile Include="HundredExpression.cs" />
-    <Compile Include="OneExpression.cs" />
+    <Compile Include="RomanNumbersExample\Context.cs" />
+    <Compile Include="RomanNumbersExample\Expressions\Expression.cs" />
+    <Compile Include="RomanNumbersExample\Expressions\HundredExpression.cs" />
+    <Compile Include="RomanNumbersExample\Expressions\OneExpression.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TenExpression.cs" />
-    <Compile Include="ThousandExpression.cs" />
+    <Compile Include="RomanNumbersExample\Expressions\TenExpression.cs" />
+    <Compile Include="RomanNumbersExample\Expressions\ThousandExpression.cs" />
+    <Compile Include="RomanNumbersExample\RomanNumbersInterpreter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

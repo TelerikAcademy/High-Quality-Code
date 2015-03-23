@@ -1,4 +1,4 @@
-﻿namespace Interpreter
+﻿namespace Interpreter.RomanNumbersExample.Expressions
 {
     /// <summary>
     /// A 'TerminalExpression' class
@@ -6,29 +6,29 @@
     /// Thousand checks for the Roman Numeral M 
     /// </remarks>
     /// </summary>
-    internal class ThousandExpression : Expression
+    public class ThousandExpression : Expression
     {
-        public override string One()
+        protected override string One()
         {
             return "M";
         }
 
-        public override string Four()
+        protected override string Four()
         {
             return " ";
         }
 
-        public override string Five()
+        protected override string Five()
         {
             return " ";
         }
 
-        public override string Nine()
+        protected override string Nine()
         {
             return " ";
         }
 
-        public override int Multiplier()
+        protected override int Multiplier()
         {
             return 1000;
         }

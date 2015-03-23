@@ -1,9 +1,9 @@
-﻿namespace Interpreter
+﻿namespace Interpreter.RomanNumbersExample
 {
     /// <summary>
     /// The 'Context' class
     /// </summary>
-    internal class Context
+    public class Context
     {
         public Context(string input)
         {
