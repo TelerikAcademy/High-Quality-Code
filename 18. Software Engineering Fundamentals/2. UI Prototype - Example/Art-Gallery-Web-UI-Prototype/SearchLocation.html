@@ -1,0 +1,95 @@
+<html>
+
+<head>
+	<meta content="text/html; charset=windows-1251" http-equiv="Content-Type" />
+	<title>Art Galery - Search</title>
+	<link href="art-gallery.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<table bgcolor="#F0F0F0" border="0" cellpadding="0" cellspacing="1" height="100%" width="100%">
+	<tbody>
+	<tr bgcolor="white" height="1%">
+		<td width="92"><img src="img/logo.gif" /></td>
+		<td align="center" bgcolor="#E0E0E0"><img src="img/art-gallery.gif" /></td>
+	</tr>
+	<tr bgcolor="#FFFFFF" height="98%" valign="top">
+		<td align="center" bgcolor="#E0E0E0">
+		<table border="0" cellpadding="5" cellspacing="0" class="menuTable">
+			<tbody>
+			<tr>
+				<td><a href="Home.html">[Начало]</a>
+				</td>
+			</tr>
+			<tr>
+				<td><a href="SearchGlobal.html">[Търсене]</a>
+				</td>
+			</tr>
+			<tr>
+				<td><a href="AdminLogin.html">[Админ]</a>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+		</td>
+		<td>
+		<table border="0" cellpadding="15" cellspacing="0" width="100%">
+			<tbody>
+			<tr>
+				<td>
+				<form action="SearchResults.html" method="POST" name="searchForm">
+					<input name="location" type="hidden" value="/gosho" />
+					<table align="center" bgcolor="#F0F0F0" border="0" cellpadding="15" cellspacing="1">
+						<tbody>
+						<tr>
+							<td align="center">
+							<p>Търсене на произведения на изкуството в галерия
+							<br /></p>
+							<p class="galleryName">gosho - Гошо Гошев </p>
+							</td>
+						</tr>
+						<tr bgcolor="#FFFFFF">
+							<td>
+							<table align="center" border="0" cellpadding="0" cellspacing="10">
+								<tbody>
+								<tr>
+									<td align="center">
+									<input maxlength="100" name="searchString" style="width: 250px" type="text" value="Витоша" />
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+									<input type="submit" value="Търсене" /> </td>
+								</tr>
+							</tbody>
+							</table>
+							</td>
+						</tr>
+					</tbody>
+					</table>
+				</form>
+				<p align="center"><a href="javascript:history.go(-1)">[обратно]</a>
+				</p>
+				<script language="JavaScript">
+		document.forms.searchForm.searchString.focus();
+	</script>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+		</td>
+	</tr>
+	<tr bgcolor="#FFFFFF" height="1%">
+		<td align="center" bgcolor="#E0E0E0" colspan="2">
+		<div class="statusLine">
+			This is Web UI Prototype - Not a Real Application - Use for Demonstration 
+			Purposes Only</div>
+		</td>
+	</tr>
+</tbody>
+</table>
+
+</body>
+
+</html>

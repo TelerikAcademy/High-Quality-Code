@@ -1,0 +1,119 @@
+﻿body {
+	font-family: Arial, Verdana, Geneva;
+	font-size: 10pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.browseGalleriesTable {
+	font-size: 11pt;
+    color : #552200;
+}
+
+.browseGalleriesTableCaption {
+	font-family: Verdana, Arial, Geneva;
+	font-size: 10pt;
+	text-align: center;
+	font-weight: bold;
+    color : #993300;
+}
+
+.galleryNameTable {
+    margin-top: 20px;
+}
+
+.galleryNameCaptionText {
+	font-family: Verdana, Arial, Geneva;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+    color : #993300;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
+.adminMenuCaptionText {
+	font-family: Verdana, Arial, Geneva;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+    color : #993300;
+	padding-top : 5px;
+	padding-bottom : 5px;
+}
+
+.adminMenuGalleryName {
+	font-family: Verdana, Arial, Geneva;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+    color : #993300;
+}
+
+.imageDate {
+	font-size: 9pt;
+	text-align: center;
+    color : #993300;
+}
+
+.imageComment {
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+    color : #993300;
+}
+
+.imageComment  {
+	text-decoration: none;
+}
+
+.galleryName {
+	font-family: Verdana, Arial, Geneva;
+	font-size: 12pt;
+	font-weight: bold;
+    color : #993300;
+	margin-top : 0px;
+	margin-bottom : 5px;
+}
+
+.emptyGallery {
+	font-family: Verdana, Arial, Geneva;
+	font-size: 12pt;
+    text-align: center;
+	padding-top : 30px;
+	padding-bottom : 30px;
+}
+
+.errorMessage {
+	font-family: Verdana, Arial, Geneva;
+	font-size: 12pt;
+	font-weight: bold;
+    color : Red;
+	margin-top : 20px;
+	margin-bottom : 5px;
+}
+
+.menuTable {
+    padding-top: 10px;
+    text-align: center;
+	font-family: Verdana, Arial, Geneva;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+.loginFormTableCaption {
+	font-family: Verdana, Arial, Geneva;
+	font-size: 12pt;
+	font-weight: bold;
+    color : #993300;
+}
+
+.statusLine {
+	font-family: Verdana, Arial, Geneva;
+	font-size: 10pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color : #993300;
+}
