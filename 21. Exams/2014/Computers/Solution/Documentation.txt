@@ -1,0 +1,41 @@
+Design pattern: Simple Factory
+	* Used in UI.Console.Program.CreateFactory method for creating manufacturers
+
+Design pattern: Strategy
+	* Used in various constructors - Computers.Common.Computer and its descendants
+
+Design pattern: Template Method
+	* Used in Computers.Common.Components.Cpu.SquareNumber method - it calls the abstract GetMaxNumber
+
+Design pattern: Abstract factory
+	* Used in Computers.Common.Factories namespace - for every manufacturer
+
+Design pattern: Composite
+	* Used in Computers.Common.Components.IHardDrive - RaidArray has a collection of HardDrive
+
+Design pattern: Mediator
+	* Used in Computers.Common.Components.Motherboard - the motherboard connects all other components
+
+Found bottlenecks:
+	* Computers.Common.Components.Cpu.GenerateRandomNumber - used to "try-catch" random numbers in interval instead of passing intervals
+	* Computers.Common.Components.Cpu.SquareNumber - sums n times n + n instead of n * n
+
+Found bugs:
+	* % was missing in battery charge message
+	* LaptopBattery should not be used from the fake System.Collections.Generic.dll library
+	* The application should not throw NullReferenceException when starting the code
+
+Single responsibility principle
+	* In every computer component - RAM, CPU, VideoCard, etc.
+
+Open/closed principle
+	* By using factories, template method, inheritance (in the cpus) and removing all if/else statements checking for types, composite in the hard drives and many more
+
+Liskov substitution principle
+	* All descendants can replace their base classes in all the code. Non of the children changes the base types behavior unexpectedly
+
+Interface segregation principle
+	* IMotherboardComponent was segragated from the other components. Also all components are small and cohesive
+
+Dependency inversion principle
+	* Used in every constructor where possible - Computers.Common.Computer and its descendants for example
