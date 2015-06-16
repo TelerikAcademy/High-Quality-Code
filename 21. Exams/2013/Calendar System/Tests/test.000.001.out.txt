@@ -1,0 +1,19 @@
+Event added
+Event added
+Event added
+Event added
+Event added
+2012-03-07T22:30:00 | party | Vitosha
+2012-03-26T08:00:00 | C# exam
+2012-03-26T09:00:00 | C# exam
+3 events deleted
+No events found
+No events found
+Event added
+2012-01-21T20:00:00 | party Viki | home
+2012-03-07T22:30:00 | party | Club XXX
+2012-03-07T22:30:00 | party | Vitosha
+Event added
+2012-03-07T22:30:00 | party | Club XXX
+2012-03-07T22:30:00 | party | Vitosha
+2012-03-07T22:30:00 | Party | Club XXX

@@ -1,0 +1,16 @@
+DeleteEvents party @ Mimi
+DeleteEvents party Viki 22
+AddEvent 2011-11-11T11:11:22 | party Viki 22 | home
+AddEvent 2011-11-11T11:11:22 | party Viki (11:22)
+AddEvent 2011-11-11T11:11:55 | party Viki 55 | home
+AddEvent 2011-11-11T11:11:33 | party Viki (11:33)
+AddEvent 2011-11-11T11:11:11 | party Viki 11 | home
+AddEvent 2011-11-11T11:11:44 | party Viki (11:44)
+AddEvent 2011-11-11T11:11:55 | party Viki (11:55)
+AddEvent 2011-11-11T11:11:33 | party Viki 33 | home
+AddEvent 2011-11-11T11:11:11 | party Viki (11:11)
+AddEvent 2011-11-11T11:11:44 | party Viki | home
+ListEvents 2011-11-11T11:11:22 | 3
+DeleteEvents party @ Kiro
+ListEvents 2011-11-11T11:11:11 | 2
+End

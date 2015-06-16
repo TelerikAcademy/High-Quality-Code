@@ -1,0 +1,3 @@
+AddEvent 2000-01-01T01:00:00 | party Viki | home
+ListEvents 2000-01-01T01:00:00 | 1
+End

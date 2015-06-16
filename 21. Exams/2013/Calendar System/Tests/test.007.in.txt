@@ -1,0 +1,476 @@
+AddEvent 2001-01-01T10:30:03 | party Kiro
+AddEvent 2019-01-01T00:00:00 | C# exam (again) | at home
+AddEvent 2001-01-01T10:00:00 | party Kiro - 645831 |  - 599812
+AddEvent 2001-02-01T00:00:00 | Exam | Plovdiv
+AddEvent 2001-02-01T00:00:00 | party Lora
+AddEvent 2001-01-01T00:00:00 | Exam | Home
+AddEvent 2012-03-31T23:59:58 | party Kiro - 744173 | Varna - 771418
+AddEvent 2001-01-01T10:30:01 | EXAM - 197258
+AddEvent 2001-01-01T10:30:00 | C# exam (again) | sofia
+AddEvent 2012-03-31T23:59:59 | exam
+AddEvent 2001-01-01T16:00:00 | party Lora
+AddEvent 2019-01-01T00:00:00 | C# course |  - 531989
+AddEvent 2001-01-01T10:00:00 | party | Home
+AddEvent 2000-01-01T00:00:00 | Party LORA | Telerik academy - 14832
+AddEvent 2001-01-01T22:00:00 | PARTY | home
+AddEvent 2001-01-01T22:30:00 | Party LORA - 986290 | home
+AddEvent 2001-01-01T22:00:00 | Party LORA - 791305
+AddEvent 2001-02-01T00:00:00 | Party LORA - 85232
+AddEvent 2001-01-01T22:00:00 | party | sofia
+AddEvent 2001-01-01T11:00:00 | party Kiro - 384003 | telerik academy
+AddEvent 2019-01-01T00:00:00 | exam - 59365
+AddEvent 2001-01-01T10:30:02 | PARTY
+AddEvent 2001-01-01T12:00:00 | party Lora - 243949
+AddEvent 2001-01-01T10:30:02 | Rock party | at home
+AddEvent 2001-01-01T10:30:02 | C# course
+AddEvent 2001-01-01T00:00:00 | PARTY - 352449 |  - 408337
+AddEvent 2001-01-01T11:00:00 | Rock party | Home - 397026
+AddEvent 2001-01-01T10:30:02 | Rock party
+AddEvent 2001-01-01T10:30:01 | party Lora | Kaspichan
+AddEvent 2001-01-01T10:30:00 | Party LORA | Sofia
+AddEvent 2001-01-01T10:30:00 | Chalga party | at home - 222820
+AddEvent 2001-01-01T12:00:00 | exam
+AddEvent 2019-01-01T00:00:00 | Chalga party | Varna
+AddEvent 2019-01-01T00:00:00 | party - 416966
+AddEvent 2012-03-31T23:59:57 | EXAM - 194681 | at school
+AddEvent 2001-01-01T11:30:00 | Party LORA | home
+AddEvent 2012-03-31T23:59:58 | C# exam (again) - 220784
+AddEvent 2001-01-01T10:30:00 | EXAM | at home
+AddEvent 2001-01-01T10:30:03 | party Lora - 198672 |  - 235165
+AddEvent 2001-01-01T11:00:00 | Rock party | home
+AddEvent 2001-01-01T16:00:00 | party Lora | Varna
+AddEvent 2001-01-01T10:00:00 | Exam | sofia - 37482
+AddEvent 2001-01-01T22:00:00 | Rock party
+AddEvent 2000-01-01T00:00:00 | Rock party
+AddEvent 2001-01-01T22:00:00 | C# course
+AddEvent 2019-01-01T00:00:00 | Exam
+AddEvent 2001-01-01T22:30:00 | Party LORA | sofia
+AddEvent 2001-01-01T11:00:00 | exam | at school
+AddEvent 2001-01-01T12:00:00 | party | Kaspichan
+AddEvent 2001-01-01T11:30:00 | party Kiro - 518671
+AddEvent 2001-01-01T22:00:00 | party Kiro | Kaspichan
+AddEvent 2001-01-01T00:00:00 | Exam | at school
+AddEvent 2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+AddEvent 2019-01-01T00:00:00 | exam | Kaspichan
+AddEvent 2001-01-01T10:30:01 | party Kiro | Home
+AddEvent 2001-01-01T11:00:00 | Exam - 350394
+AddEvent 2001-01-01T10:30:02 | Exam - 692 | at school
+AddEvent 2001-01-01T11:30:00 | Exam - 423288 | Varna - 367061
+AddEvent 2000-01-01T00:00:00 | Exam - 470189
+AddEvent 2001-01-01T22:30:00 | EXAM
+AddEvent 2001-01-01T10:30:00 | C# exam (again) | at school - 376932
+AddEvent 2019-01-01T00:00:00 | party
+AddEvent 2001-01-01T10:30:02 | Party LORA | sofia
+AddEvent 2001-01-01T20:00:00 | party Kiro | Sofia
+AddEvent 2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+AddEvent 2012-03-31T23:59:58 | party
+AddEvent 2012-03-31T23:59:59 | C# exam (again)
+AddEvent 2001-01-01T22:00:00 | PARTY - 278108
+AddEvent 2001-01-01T10:30:03 | Chalga party
+AddEvent 2001-01-01T20:00:00 | party Lora
+AddEvent 2001-02-01T00:00:00 | party
+AddEvent 2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+AddEvent 2001-01-01T20:00:00 | Party LORA - 599440
+AddEvent 2001-01-01T16:00:00 | exam |  - 264116
+AddEvent 2012-03-31T23:59:58 | C# exam (again) - 468063 | Kaspichan
+AddEvent 2001-01-01T10:30:03 | exam | at school
+AddEvent 2001-01-01T10:00:00 | Chalga party | at home
+AddEvent 2012-03-31T23:59:59 | C# exam (again) - 979458 |  - 922870
+AddEvent 2012-03-31T23:59:58 | Exam | telerik academy
+AddEvent 2001-01-01T16:00:00 | exam
+AddEvent 2001-01-01T10:00:00 | Exam | Telerik academy
+AddEvent 2001-01-01T12:00:00 | Chalga party - 406733 | telerik academy
+AddEvent 2001-01-01T10:30:03 | party Lora - 158117 | Kaspichan
+AddEvent 2000-01-01T00:00:00 | Rock party
+AddEvent 2012-03-31T23:59:58 | Exam
+AddEvent 2001-01-01T22:00:00 | C# course
+AddEvent 2001-01-01T10:30:01 | party Lora - 488100
+AddEvent 2001-01-01T10:30:03 | Party LORA
+AddEvent 2001-01-01T00:00:00 | party - 461156 | Kaspichan
+AddEvent 2001-01-01T20:00:00 | Chalga party - 70000 | at home
+AddEvent 2001-01-01T12:00:00 | C# exam (again)
+AddEvent 2001-01-01T22:30:00 | C# course - 853264 | Sofia
+AddEvent 2012-03-31T23:59:58 | party | Kaspichan
+AddEvent 2001-01-01T11:30:00 | Rock party
+AddEvent 2001-01-01T22:30:00 | exam - 804175 | Telerik academy
+AddEvent 2001-01-01T11:00:00 | C# course | sofia
+AddEvent 2001-01-01T10:30:03 | party Lora
+AddEvent 2012-03-31T23:59:58 | Party LORA | Kaspichan
+AddEvent 2001-01-01T11:00:00 | Chalga party - 679007
+AddEvent 2001-01-01T11:30:00 | PARTY |  - 465511
+ListEvents 2001-01-01T10:30:01 | 7
+ListEvents 2001-01-01T22:00:00 | 3
+ListEvents 2001-01-01T11:00:00 | 5
+ListEvents 2001-01-01T10:30:01 | 19
+ListEvents 2001-01-01T00:00:00 | 14
+AddEvent 2001-01-01T10:30:03 | party Kiro
+AddEvent 2019-01-01T00:00:00 | C# exam (again) | at home
+AddEvent 2001-01-01T10:00:00 | party Kiro - 645831 |  - 599812
+AddEvent 2001-02-01T00:00:00 | Exam | Plovdiv
+AddEvent 2001-02-01T00:00:00 | party Lora
+AddEvent 2001-01-01T00:00:00 | Exam | Home
+AddEvent 2012-03-31T23:59:58 | party Kiro - 744173 | Varna - 771418
+AddEvent 2001-01-01T10:30:01 | EXAM - 197258
+AddEvent 2001-01-01T10:30:00 | C# exam (again) | sofia
+AddEvent 2012-03-31T23:59:59 | exam
+AddEvent 2001-01-01T16:00:00 | party Lora
+AddEvent 2019-01-01T00:00:00 | C# course |  - 531989
+AddEvent 2001-01-01T10:00:00 | party | Home
+AddEvent 2000-01-01T00:00:00 | Party LORA | Telerik academy - 14832
+AddEvent 2001-01-01T22:00:00 | PARTY | home
+AddEvent 2001-01-01T22:30:00 | Party LORA - 986290 | home
+AddEvent 2001-01-01T22:00:00 | Party LORA - 791305
+AddEvent 2001-02-01T00:00:00 | Party LORA - 85232
+AddEvent 2001-01-01T22:00:00 | party | sofia
+AddEvent 2001-01-01T11:00:00 | party Kiro - 384003 | telerik academy
+AddEvent 2019-01-01T00:00:00 | exam - 59365
+AddEvent 2001-01-01T10:30:02 | PARTY
+AddEvent 2001-01-01T12:00:00 | party Lora - 243949
+AddEvent 2001-01-01T10:30:02 | Rock party | at home
+AddEvent 2001-01-01T10:30:02 | C# course
+AddEvent 2001-01-01T00:00:00 | PARTY - 352449 |  - 408337
+AddEvent 2001-01-01T11:00:00 | Rock party | Home - 397026
+AddEvent 2001-01-01T10:30:02 | Rock party
+AddEvent 2001-01-01T10:30:01 | party Lora | Kaspichan
+AddEvent 2001-01-01T10:30:00 | Party LORA | Sofia
+AddEvent 2001-01-01T10:30:00 | Chalga party | at home - 222820
+AddEvent 2001-01-01T12:00:00 | exam
+AddEvent 2019-01-01T00:00:00 | Chalga party | Varna
+AddEvent 2019-01-01T00:00:00 | party - 416966
+AddEvent 2012-03-31T23:59:57 | EXAM - 194681 | at school
+AddEvent 2001-01-01T11:30:00 | Party LORA | home
+AddEvent 2012-03-31T23:59:58 | C# exam (again) - 220784
+AddEvent 2001-01-01T10:30:00 | EXAM | at home
+AddEvent 2001-01-01T10:30:03 | party Lora - 198672 |  - 235165
+AddEvent 2001-01-01T11:00:00 | Rock party | home
+AddEvent 2001-01-01T16:00:00 | party Lora | Varna
+AddEvent 2001-01-01T10:00:00 | Exam | sofia - 37482
+AddEvent 2001-01-01T22:00:00 | Rock party
+AddEvent 2000-01-01T00:00:00 | Rock party
+AddEvent 2001-01-01T22:00:00 | C# course
+AddEvent 2019-01-01T00:00:00 | Exam
+AddEvent 2001-01-01T22:30:00 | Party LORA | sofia
+AddEvent 2001-01-01T11:00:00 | exam | at school
+AddEvent 2001-01-01T12:00:00 | party | Kaspichan
+AddEvent 2001-01-01T11:30:00 | party Kiro - 518671
+AddEvent 2001-01-01T22:00:00 | party Kiro | Kaspichan
+AddEvent 2001-01-01T00:00:00 | Exam | at school
+AddEvent 2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+AddEvent 2019-01-01T00:00:00 | exam | Kaspichan
+AddEvent 2001-01-01T10:30:01 | party Kiro | Home
+AddEvent 2001-01-01T11:00:00 | Exam - 350394
+AddEvent 2001-01-01T10:30:02 | Exam - 692 | at school
+AddEvent 2001-01-01T11:30:00 | Exam - 423288 | Varna - 367061
+AddEvent 2000-01-01T00:00:00 | Exam - 470189
+AddEvent 2001-01-01T22:30:00 | EXAM
+AddEvent 2001-01-01T10:30:00 | C# exam (again) | at school - 376932
+AddEvent 2019-01-01T00:00:00 | party
+AddEvent 2001-01-01T10:30:02 | Party LORA | sofia
+AddEvent 2001-01-01T20:00:00 | party Kiro | Sofia
+AddEvent 2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+AddEvent 2012-03-31T23:59:58 | party
+AddEvent 2012-03-31T23:59:59 | C# exam (again)
+AddEvent 2001-01-01T22:00:00 | PARTY - 278108
+AddEvent 2001-01-01T10:30:03 | Chalga party
+AddEvent 2001-01-01T20:00:00 | party Lora
+AddEvent 2001-02-01T00:00:00 | party
+AddEvent 2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+AddEvent 2001-01-01T20:00:00 | Party LORA - 599440
+AddEvent 2001-01-01T16:00:00 | exam |  - 264116
+AddEvent 2012-03-31T23:59:58 | C# exam (again) - 468063 | Kaspichan
+AddEvent 2001-01-01T10:30:03 | exam | at school
+AddEvent 2001-01-01T10:00:00 | Chalga party | at home
+AddEvent 2012-03-31T23:59:59 | C# exam (again) - 979458 |  - 922870
+AddEvent 2012-03-31T23:59:58 | Exam | telerik academy
+AddEvent 2001-01-01T16:00:00 | exam
+AddEvent 2001-01-01T10:00:00 | Exam | Telerik academy
+AddEvent 2001-01-01T12:00:00 | Chalga party - 406733 | telerik academy
+AddEvent 2001-01-01T10:30:03 | party Lora - 158117 | Kaspichan
+AddEvent 2000-01-01T00:00:00 | Rock party
+AddEvent 2012-03-31T23:59:58 | Exam
+AddEvent 2001-01-01T22:00:00 | C# course
+AddEvent 2001-01-01T10:30:01 | party Lora - 488100
+AddEvent 2001-01-01T10:30:03 | Party LORA
+AddEvent 2001-01-01T00:00:00 | party - 461156 | Kaspichan
+AddEvent 2001-01-01T20:00:00 | Chalga party - 70000 | at home
+AddEvent 2001-01-01T12:00:00 | C# exam (again)
+AddEvent 2001-01-01T22:30:00 | C# course - 853264 | Sofia
+AddEvent 2012-03-31T23:59:58 | party | Kaspichan
+AddEvent 2001-01-01T11:30:00 | Rock party
+AddEvent 2001-01-01T22:30:00 | exam - 804175 | Telerik academy
+AddEvent 2001-01-01T11:00:00 | C# course | sofia
+AddEvent 2001-01-01T10:30:03 | party Lora
+AddEvent 2012-03-31T23:59:58 | Party LORA | Kaspichan
+AddEvent 2001-01-01T11:00:00 | Chalga party - 679007
+AddEvent 2001-01-01T11:30:00 | PARTY |  - 465511
+ListEvents 2001-01-01T10:30:01 | 7
+ListEvents 2001-01-01T22:00:00 | 3
+ListEvents 2001-01-01T11:00:00 | 5
+ListEvents 2001-01-01T10:30:01 | 19
+ListEvents 2001-01-01T00:00:00 | 14
+DeleteEvents party Lora
+DeleteEvents Party LORA - 500968
+DeleteEvents Rock party
+DeleteEvents PARTY
+DeleteEvents C# exam (again) - 581288
+ListEvents 2012-03-31T23:59:57 | 6
+ListEvents 2012-03-31T23:59:59 | 2
+ListEvents 2001-02-01T00:00:00 | 1
+ListEvents 2012-03-31T23:59:59 | 1
+ListEvents 2001-01-01T10:30:03 | 13
+AddEvent 2001-01-01T10:00:00 | party Kiro | sofia
+AddEvent 2001-02-01T00:00:00 | Chalga party | Plovdiv
+AddEvent 2001-01-01T00:00:00 | Rock party | Telerik academy - 799630
+AddEvent 2001-01-01T11:00:00 | Rock party | Home
+AddEvent 2000-01-01T00:00:00 | Exam
+AddEvent 2001-01-01T11:30:00 | Exam | at home - 774892
+AddEvent 2001-01-01T20:00:00 | C# course | Kaspichan - 334693
+AddEvent 2001-01-01T10:30:01 | party | Home
+AddEvent 2012-03-31T23:59:58 | Exam | sofia
+AddEvent 2001-01-01T16:00:00 | Party LORA | at school
+ListEvents 2012-03-31T23:59:59 | 11
+ListEvents 2001-01-01T10:30:02 | 8
+ListEvents 2001-01-01T10:30:01 | 4
+ListEvents 2001-01-01T10:30:03 | 16
+ListEvents 2012-03-31T23:59:59 | 10
+AddEvent 2001-01-01T10:30:03 | party Kiro
+AddEvent 2019-01-01T00:00:00 | C# exam (again) | at home
+AddEvent 2001-01-01T10:00:00 | party Kiro - 645831 |  - 599812
+AddEvent 2001-02-01T00:00:00 | Exam | Plovdiv
+AddEvent 2001-02-01T00:00:00 | party Lora
+AddEvent 2001-01-01T00:00:00 | Exam | Home
+AddEvent 2012-03-31T23:59:58 | party Kiro - 744173 | Varna - 771418
+AddEvent 2001-01-01T10:30:01 | EXAM - 197258
+AddEvent 2001-01-01T10:30:00 | C# exam (again) | sofia
+AddEvent 2012-03-31T23:59:59 | exam
+AddEvent 2001-01-01T16:00:00 | party Lora
+AddEvent 2019-01-01T00:00:00 | C# course |  - 531989
+AddEvent 2001-01-01T10:00:00 | party | Home
+AddEvent 2000-01-01T00:00:00 | Party LORA | Telerik academy - 14832
+AddEvent 2001-01-01T22:00:00 | PARTY | home
+AddEvent 2001-01-01T22:30:00 | Party LORA - 986290 | home
+AddEvent 2001-01-01T22:00:00 | Party LORA - 791305
+AddEvent 2001-02-01T00:00:00 | Party LORA - 85232
+AddEvent 2001-01-01T22:00:00 | party | sofia
+AddEvent 2001-01-01T11:00:00 | party Kiro - 384003 | telerik academy
+AddEvent 2019-01-01T00:00:00 | exam - 59365
+AddEvent 2001-01-01T10:30:02 | PARTY
+AddEvent 2001-01-01T12:00:00 | party Lora - 243949
+AddEvent 2001-01-01T10:30:02 | Rock party | at home
+AddEvent 2001-01-01T10:30:02 | C# course
+AddEvent 2001-01-01T00:00:00 | PARTY - 352449 |  - 408337
+AddEvent 2001-01-01T11:00:00 | Rock party | Home - 397026
+AddEvent 2001-01-01T10:30:02 | Rock party
+AddEvent 2001-01-01T10:30:01 | party Lora | Kaspichan
+AddEvent 2001-01-01T10:30:00 | Party LORA | Sofia
+AddEvent 2001-01-01T10:30:00 | Chalga party | at home - 222820
+AddEvent 2001-01-01T12:00:00 | exam
+AddEvent 2019-01-01T00:00:00 | Chalga party | Varna
+AddEvent 2019-01-01T00:00:00 | party - 416966
+AddEvent 2012-03-31T23:59:57 | EXAM - 194681 | at school
+AddEvent 2001-01-01T11:30:00 | Party LORA | home
+AddEvent 2012-03-31T23:59:58 | C# exam (again) - 220784
+AddEvent 2001-01-01T10:30:00 | EXAM | at home
+AddEvent 2001-01-01T10:30:03 | party Lora - 198672 |  - 235165
+AddEvent 2001-01-01T11:00:00 | Rock party | home
+AddEvent 2001-01-01T16:00:00 | party Lora | Varna
+AddEvent 2001-01-01T10:00:00 | Exam | sofia - 37482
+AddEvent 2001-01-01T22:00:00 | Rock party
+AddEvent 2000-01-01T00:00:00 | Rock party
+AddEvent 2001-01-01T22:00:00 | C# course
+AddEvent 2019-01-01T00:00:00 | Exam
+AddEvent 2001-01-01T22:30:00 | Party LORA | sofia
+AddEvent 2001-01-01T11:00:00 | exam | at school
+AddEvent 2001-01-01T12:00:00 | party | Kaspichan
+AddEvent 2001-01-01T11:30:00 | party Kiro - 518671
+AddEvent 2001-01-01T22:00:00 | party Kiro | Kaspichan
+AddEvent 2001-01-01T00:00:00 | Exam | at school
+AddEvent 2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+AddEvent 2019-01-01T00:00:00 | exam | Kaspichan
+AddEvent 2001-01-01T10:30:01 | party Kiro | Home
+AddEvent 2001-01-01T11:00:00 | Exam - 350394
+AddEvent 2001-01-01T10:30:02 | Exam - 692 | at school
+AddEvent 2001-01-01T11:30:00 | Exam - 423288 | Varna - 367061
+AddEvent 2000-01-01T00:00:00 | Exam - 470189
+AddEvent 2001-01-01T22:30:00 | EXAM
+AddEvent 2001-01-01T10:30:00 | C# exam (again) | at school - 376932
+AddEvent 2019-01-01T00:00:00 | party
+AddEvent 2001-01-01T10:30:02 | Party LORA | sofia
+AddEvent 2001-01-01T20:00:00 | party Kiro | Sofia
+AddEvent 2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+AddEvent 2012-03-31T23:59:58 | party
+AddEvent 2012-03-31T23:59:59 | C# exam (again)
+AddEvent 2001-01-01T22:00:00 | PARTY - 278108
+AddEvent 2001-01-01T10:30:03 | Chalga party
+AddEvent 2001-01-01T20:00:00 | party Lora
+AddEvent 2001-02-01T00:00:00 | party
+AddEvent 2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+AddEvent 2001-01-01T20:00:00 | Party LORA - 599440
+AddEvent 2001-01-01T16:00:00 | exam |  - 264116
+AddEvent 2012-03-31T23:59:58 | C# exam (again) - 468063 | Kaspichan
+AddEvent 2001-01-01T10:30:03 | exam | at school
+AddEvent 2001-01-01T10:00:00 | Chalga party | at home
+AddEvent 2012-03-31T23:59:59 | C# exam (again) - 979458 |  - 922870
+AddEvent 2012-03-31T23:59:58 | Exam | telerik academy
+AddEvent 2001-01-01T16:00:00 | exam
+AddEvent 2001-01-01T10:00:00 | Exam | Telerik academy
+AddEvent 2001-01-01T12:00:00 | Chalga party - 406733 | telerik academy
+AddEvent 2001-01-01T10:30:03 | party Lora - 158117 | Kaspichan
+AddEvent 2000-01-01T00:00:00 | Rock party
+AddEvent 2012-03-31T23:59:58 | Exam
+AddEvent 2001-01-01T22:00:00 | C# course
+AddEvent 2001-01-01T10:30:01 | party Lora - 488100
+AddEvent 2001-01-01T10:30:03 | Party LORA
+AddEvent 2001-01-01T00:00:00 | party - 461156 | Kaspichan
+AddEvent 2001-01-01T20:00:00 | Chalga party - 70000 | at home
+AddEvent 2001-01-01T12:00:00 | C# exam (again)
+AddEvent 2001-01-01T22:30:00 | C# course - 853264 | Sofia
+AddEvent 2012-03-31T23:59:58 | party | Kaspichan
+AddEvent 2001-01-01T11:30:00 | Rock party
+AddEvent 2001-01-01T22:30:00 | exam - 804175 | Telerik academy
+AddEvent 2001-01-01T11:00:00 | C# course | sofia
+AddEvent 2001-01-01T10:30:03 | party Lora
+AddEvent 2012-03-31T23:59:58 | Party LORA | Kaspichan
+AddEvent 2001-01-01T11:00:00 | Chalga party - 679007
+AddEvent 2001-01-01T11:30:00 | PARTY |  - 465511
+ListEvents 2001-01-01T10:30:01 | 7
+ListEvents 2001-01-01T22:00:00 | 3
+ListEvents 2001-01-01T11:00:00 | 5
+ListEvents 2001-01-01T10:30:01 | 19
+ListEvents 2001-01-01T00:00:00 | 14
+AddEvent 2001-01-01T10:30:03 | party Kiro
+AddEvent 2019-01-01T00:00:00 | C# exam (again) | at home
+AddEvent 2001-01-01T10:00:00 | party Kiro - 645831 |  - 599812
+AddEvent 2001-02-01T00:00:00 | Exam | Plovdiv
+AddEvent 2001-02-01T00:00:00 | party Lora
+AddEvent 2001-01-01T00:00:00 | Exam | Home
+AddEvent 2012-03-31T23:59:58 | party Kiro - 744173 | Varna - 771418
+AddEvent 2001-01-01T10:30:01 | EXAM - 197258
+AddEvent 2001-01-01T10:30:00 | C# exam (again) | sofia
+AddEvent 2012-03-31T23:59:59 | exam
+AddEvent 2001-01-01T16:00:00 | party Lora
+AddEvent 2019-01-01T00:00:00 | C# course |  - 531989
+AddEvent 2001-01-01T10:00:00 | party | Home
+AddEvent 2000-01-01T00:00:00 | Party LORA | Telerik academy - 14832
+AddEvent 2001-01-01T22:00:00 | PARTY | home
+AddEvent 2001-01-01T22:30:00 | Party LORA - 986290 | home
+AddEvent 2001-01-01T22:00:00 | Party LORA - 791305
+AddEvent 2001-02-01T00:00:00 | Party LORA - 85232
+AddEvent 2001-01-01T22:00:00 | party | sofia
+AddEvent 2001-01-01T11:00:00 | party Kiro - 384003 | telerik academy
+AddEvent 2019-01-01T00:00:00 | exam - 59365
+AddEvent 2001-01-01T10:30:02 | PARTY
+AddEvent 2001-01-01T12:00:00 | party Lora - 243949
+AddEvent 2001-01-01T10:30:02 | Rock party | at home
+AddEvent 2001-01-01T10:30:02 | C# course
+AddEvent 2001-01-01T00:00:00 | PARTY - 352449 |  - 408337
+AddEvent 2001-01-01T11:00:00 | Rock party | Home - 397026
+AddEvent 2001-01-01T10:30:02 | Rock party
+AddEvent 2001-01-01T10:30:01 | party Lora | Kaspichan
+AddEvent 2001-01-01T10:30:00 | Party LORA | Sofia
+AddEvent 2001-01-01T10:30:00 | Chalga party | at home - 222820
+AddEvent 2001-01-01T12:00:00 | exam
+AddEvent 2019-01-01T00:00:00 | Chalga party | Varna
+AddEvent 2019-01-01T00:00:00 | party - 416966
+AddEvent 2012-03-31T23:59:57 | EXAM - 194681 | at school
+AddEvent 2001-01-01T11:30:00 | Party LORA | home
+AddEvent 2012-03-31T23:59:58 | C# exam (again) - 220784
+AddEvent 2001-01-01T10:30:00 | EXAM | at home
+AddEvent 2001-01-01T10:30:03 | party Lora - 198672 |  - 235165
+AddEvent 2001-01-01T11:00:00 | Rock party | home
+AddEvent 2001-01-01T16:00:00 | party Lora | Varna
+AddEvent 2001-01-01T10:00:00 | Exam | sofia - 37482
+AddEvent 2001-01-01T22:00:00 | Rock party
+AddEvent 2000-01-01T00:00:00 | Rock party
+AddEvent 2001-01-01T22:00:00 | C# course
+AddEvent 2019-01-01T00:00:00 | Exam
+AddEvent 2001-01-01T22:30:00 | Party LORA | sofia
+AddEvent 2001-01-01T11:00:00 | exam | at school
+AddEvent 2001-01-01T12:00:00 | party | Kaspichan
+AddEvent 2001-01-01T11:30:00 | party Kiro - 518671
+AddEvent 2001-01-01T22:00:00 | party Kiro | Kaspichan
+AddEvent 2001-01-01T00:00:00 | Exam | at school
+AddEvent 2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+AddEvent 2019-01-01T00:00:00 | exam | Kaspichan
+AddEvent 2001-01-01T10:30:01 | party Kiro | Home
+AddEvent 2001-01-01T11:00:00 | Exam - 350394
+AddEvent 2001-01-01T10:30:02 | Exam - 692 | at school
+AddEvent 2001-01-01T11:30:00 | Exam - 423288 | Varna - 367061
+AddEvent 2000-01-01T00:00:00 | Exam - 470189
+AddEvent 2001-01-01T22:30:00 | EXAM
+AddEvent 2001-01-01T10:30:00 | C# exam (again) | at school - 376932
+AddEvent 2019-01-01T00:00:00 | party
+AddEvent 2001-01-01T10:30:02 | Party LORA | sofia
+AddEvent 2001-01-01T20:00:00 | party Kiro | Sofia
+AddEvent 2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+AddEvent 2012-03-31T23:59:58 | party
+AddEvent 2012-03-31T23:59:59 | C# exam (again)
+AddEvent 2001-01-01T22:00:00 | PARTY - 278108
+AddEvent 2001-01-01T10:30:03 | Chalga party
+AddEvent 2001-01-01T20:00:00 | party Lora
+AddEvent 2001-02-01T00:00:00 | party
+AddEvent 2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+AddEvent 2001-01-01T20:00:00 | Party LORA - 599440
+AddEvent 2001-01-01T16:00:00 | exam |  - 264116
+AddEvent 2012-03-31T23:59:58 | C# exam (again) - 468063 | Kaspichan
+AddEvent 2001-01-01T10:30:03 | exam | at school
+AddEvent 2001-01-01T10:00:00 | Chalga party | at home
+AddEvent 2012-03-31T23:59:59 | C# exam (again) - 979458 |  - 922870
+AddEvent 2012-03-31T23:59:58 | Exam | telerik academy
+AddEvent 2001-01-01T16:00:00 | exam
+AddEvent 2001-01-01T10:00:00 | Exam | Telerik academy
+AddEvent 2001-01-01T12:00:00 | Chalga party - 406733 | telerik academy
+AddEvent 2001-01-01T10:30:03 | party Lora - 158117 | Kaspichan
+AddEvent 2000-01-01T00:00:00 | Rock party
+AddEvent 2012-03-31T23:59:58 | Exam
+AddEvent 2001-01-01T22:00:00 | C# course
+AddEvent 2001-01-01T10:30:01 | party Lora - 488100
+AddEvent 2001-01-01T10:30:03 | Party LORA
+AddEvent 2001-01-01T00:00:00 | party - 461156 | Kaspichan
+AddEvent 2001-01-01T20:00:00 | Chalga party - 70000 | at home
+AddEvent 2001-01-01T12:00:00 | C# exam (again)
+AddEvent 2001-01-01T22:30:00 | C# course - 853264 | Sofia
+AddEvent 2012-03-31T23:59:58 | party | Kaspichan
+AddEvent 2001-01-01T11:30:00 | Rock party
+AddEvent 2001-01-01T22:30:00 | exam - 804175 | Telerik academy
+AddEvent 2001-01-01T11:00:00 | C# course | sofia
+AddEvent 2001-01-01T10:30:03 | party Lora
+AddEvent 2012-03-31T23:59:58 | Party LORA | Kaspichan
+AddEvent 2001-01-01T11:00:00 | Chalga party - 679007
+AddEvent 2001-01-01T11:30:00 | PARTY |  - 465511
+ListEvents 2001-01-01T10:30:01 | 7
+ListEvents 2001-01-01T22:00:00 | 3
+ListEvents 2001-01-01T11:00:00 | 5
+ListEvents 2001-01-01T10:30:01 | 19
+ListEvents 2001-01-01T00:00:00 | 14
+DeleteEvents party Lora
+DeleteEvents Party LORA - 500968
+DeleteEvents Rock party
+DeleteEvents PARTY
+DeleteEvents C# exam (again) - 581288
+ListEvents 2012-03-31T23:59:57 | 6
+ListEvents 2012-03-31T23:59:59 | 2
+ListEvents 2001-02-01T00:00:00 | 1
+ListEvents 2012-03-31T23:59:59 | 1
+ListEvents 2001-01-01T10:30:03 | 13
+AddEvent 2001-01-01T10:00:00 | party Kiro | sofia
+AddEvent 2001-02-01T00:00:00 | Chalga party | Plovdiv
+AddEvent 2001-01-01T00:00:00 | Rock party | Telerik academy - 799630
+AddEvent 2001-01-01T11:00:00 | Rock party | Home
+AddEvent 2000-01-01T00:00:00 | Exam
+AddEvent 2001-01-01T11:30:00 | Exam | at home - 774892
+AddEvent 2001-01-01T20:00:00 | C# course | Kaspichan - 334693
+AddEvent 2001-01-01T10:30:01 | party | Home
+AddEvent 2012-03-31T23:59:58 | Exam | sofia
+AddEvent 2001-01-01T16:00:00 | Party LORA | at school
+ListEvents 2012-03-31T23:59:59 | 11
+ListEvents 2001-01-01T10:30:02 | 8
+ListEvents 2001-01-01T10:30:01 | 4
+ListEvents 2001-01-01T10:30:03 | 16
+ListEvents 2012-03-31T23:59:59 | 10
+ListEvents 2001-01-01T00:00:00 | 15
+ListEvents 2019-01-01T00:00:00 | 1
+ListEvents 2001-02-01T00:00:00 | 18
+ListEvents 2001-01-01T10:30:02 | 6
+ListEvents 2019-01-01T00:00:00 | 11
+End

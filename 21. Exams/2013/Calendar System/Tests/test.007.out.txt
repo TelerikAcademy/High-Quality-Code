@@ -1,0 +1,817 @@
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Lora | Kaspichan
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | Exam - 692 | at school
+2001-01-01T22:00:00 | C# course
+2001-01-01T22:00:00 | C# course
+2001-01-01T22:00:00 | party | sofia
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | Chalga party - 679007
+2001-01-01T11:00:00 | exam | at school
+2001-01-01T11:00:00 | Exam - 350394
+2001-01-01T11:00:00 | party Kiro - 384003 | telerik academy
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Lora | Kaspichan
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | Exam - 692 | at school
+2001-01-01T10:30:02 | PARTY
+2001-01-01T10:30:02 | Party LORA | sofia
+2001-01-01T10:30:02 | Rock party
+2001-01-01T10:30:02 | Rock party | at home
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | party Kiro
+2001-01-01T10:30:03 | party Lora
+2001-01-01T10:30:03 | Party LORA
+2001-01-01T10:30:03 | party Lora - 158117 | Kaspichan
+2001-01-01T10:30:03 | party Lora - 198672 | - 235165
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+2001-01-01T10:00:00 | Chalga party | at home
+2001-01-01T10:00:00 | Exam | sofia - 37482
+2001-01-01T10:00:00 | Exam | Telerik academy
+2001-01-01T10:00:00 | party | Home
+2001-01-01T10:00:00 | party Kiro - 645831 | - 599812
+2001-01-01T10:30:00 | C# exam (again) | at school - 376932
+2001-01-01T10:30:00 | C# exam (again) | sofia
+2001-01-01T10:30:00 | Chalga party | at home - 222820
+2001-01-01T10:30:00 | EXAM | at home
+2001-01-01T10:30:00 | Party LORA | Sofia
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Lora | Kaspichan
+2001-01-01T10:30:01 | party Lora | Kaspichan
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T22:00:00 | C# course
+2001-01-01T22:00:00 | C# course
+2001-01-01T22:00:00 | C# course
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | Chalga party - 679007
+2001-01-01T11:00:00 | Chalga party - 679007
+2001-01-01T11:00:00 | exam | at school
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Lora | Kaspichan
+2001-01-01T10:30:01 | party Lora | Kaspichan
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | Exam - 692 | at school
+2001-01-01T10:30:02 | Exam - 692 | at school
+2001-01-01T10:30:02 | PARTY
+2001-01-01T10:30:02 | PARTY
+2001-01-01T10:30:02 | Party LORA | sofia
+2001-01-01T10:30:02 | Party LORA | sofia
+2001-01-01T10:30:02 | Rock party
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+2001-01-01T10:00:00 | Chalga party | at home
+2001-01-01T10:00:00 | Chalga party | at home
+2001-01-01T10:00:00 | Exam | sofia - 37482
+2001-01-01T10:00:00 | Exam | sofia - 37482
+2001-01-01T10:00:00 | Exam | Telerik academy
+2001-01-01T10:00:00 | Exam | Telerik academy
+26 events deleted
+No events found
+16 events deleted
+20 events deleted
+No events found
+2012-03-31T23:59:57 | EXAM - 194681 | at school
+2012-03-31T23:59:57 | EXAM - 194681 | at school
+2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+2012-03-31T23:59:58 | C# exam (again) - 220784
+2012-03-31T23:59:58 | C# exam (again) - 220784
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again)
+2001-02-01T00:00:00 | Exam | Plovdiv
+2012-03-31T23:59:59 | C# exam (again)
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | party Kiro
+2001-01-01T10:30:03 | party Kiro
+2001-01-01T10:30:03 | party Lora - 158117 | Kaspichan
+2001-01-01T10:30:03 | party Lora - 158117 | Kaspichan
+2001-01-01T10:30:03 | party Lora - 198672 | - 235165
+2001-01-01T10:30:03 | party Lora - 198672 | - 235165
+2001-01-01T11:00:00 | C# course | sofia
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | exam
+2012-03-31T23:59:59 | exam
+2019-01-01T00:00:00 | C# course | - 531989
+2019-01-01T00:00:00 | C# course | - 531989
+2019-01-01T00:00:00 | C# exam (again) | at home
+2019-01-01T00:00:00 | C# exam (again) | at home
+2019-01-01T00:00:00 | Chalga party | Varna
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | Exam - 692 | at school
+2001-01-01T10:30:02 | Exam - 692 | at school
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | party | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | party Kiro
+2001-01-01T10:30:03 | party Kiro
+2001-01-01T10:30:03 | party Lora - 158117 | Kaspichan
+2001-01-01T10:30:03 | party Lora - 158117 | Kaspichan
+2001-01-01T10:30:03 | party Lora - 198672 | - 235165
+2001-01-01T10:30:03 | party Lora - 198672 | - 235165
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | Chalga party - 679007
+2001-01-01T11:00:00 | Chalga party - 679007
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | exam
+2012-03-31T23:59:59 | exam
+2019-01-01T00:00:00 | C# course | - 531989
+2019-01-01T00:00:00 | C# course | - 531989
+2019-01-01T00:00:00 | C# exam (again) | at home
+2019-01-01T00:00:00 | C# exam (again) | at home
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | party | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T22:00:00 | C# course
+2001-01-01T22:00:00 | C# course
+2001-01-01T22:00:00 | C# course
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | Chalga party - 679007
+2001-01-01T11:00:00 | Chalga party - 679007
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | party | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Lora | Kaspichan
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | Exam - 692 | at school
+2001-01-01T10:30:02 | Exam - 692 | at school
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+2001-01-01T00:00:00 | Rock party | Telerik academy - 799630
+2001-01-01T10:00:00 | Chalga party | at home
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | party | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T22:00:00 | C# course
+2001-01-01T22:00:00 | C# course
+2001-01-01T22:00:00 | C# course
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | C# course | sofia
+2001-01-01T11:00:00 | Chalga party - 679007
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | party | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Kiro | Home
+2001-01-01T10:30:01 | party Lora | Kaspichan
+2001-01-01T10:30:01 | party Lora | Kaspichan
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:01 | party Lora - 488100
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+27 events deleted
+No events found
+18 events deleted
+21 events deleted
+No events found
+2012-03-31T23:59:57 | EXAM - 194681 | at school
+2012-03-31T23:59:57 | EXAM - 194681 | at school
+2012-03-31T23:59:57 | EXAM - 194681 | at school
+2012-03-31T23:59:57 | EXAM - 194681 | at school
+2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again)
+2001-02-01T00:00:00 | Chalga party | Plovdiv
+2012-03-31T23:59:59 | C# exam (again)
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | party Kiro
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+Event added
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | exam
+2012-03-31T23:59:59 | exam
+2012-03-31T23:59:59 | exam
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:01 | EXAM - 197258
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | Chalga party - 974464 | at school - 479574
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | exam | at school
+2001-01-01T10:30:03 | party Kiro
+2001-01-01T10:30:03 | party Kiro
+2001-01-01T10:30:03 | party Kiro
+2001-01-01T10:30:03 | party Kiro
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again)
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | C# exam (again) - 979458 | - 922870
+2012-03-31T23:59:59 | exam
+2012-03-31T23:59:59 | exam
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | at school
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | Exam | Home
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | PARTY - 352449 | - 408337
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+2001-01-01T00:00:00 | party - 461156 | Kaspichan
+2019-01-01T00:00:00 | C# course | - 531989
+2001-02-01T00:00:00 | Chalga party | Plovdiv
+2001-02-01T00:00:00 | Chalga party | Plovdiv
+2001-02-01T00:00:00 | Exam | Plovdiv
+2001-02-01T00:00:00 | Exam | Plovdiv
+2001-02-01T00:00:00 | Exam | Plovdiv
+2001-02-01T00:00:00 | Exam | Plovdiv
+2001-02-01T00:00:00 | Party LORA - 85232
+2001-02-01T00:00:00 | Party LORA - 85232
+2001-02-01T00:00:00 | Party LORA - 85232
+2001-02-01T00:00:00 | Party LORA - 85232
+2012-03-31T23:59:57 | EXAM - 194681 | at school
+2012-03-31T23:59:57 | EXAM - 194681 | at school
+2012-03-31T23:59:57 | EXAM - 194681 | at school
+2012-03-31T23:59:57 | EXAM - 194681 | at school
+2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+2012-03-31T23:59:57 | Rock party - 407026 | home - 681328
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2001-01-01T10:30:02 | C# course - 138323 | Telerik academy
+2019-01-01T00:00:00 | C# course | - 531989
+2019-01-01T00:00:00 | C# course | - 531989
+2019-01-01T00:00:00 | C# course | - 531989
+2019-01-01T00:00:00 | C# course | - 531989
+2019-01-01T00:00:00 | C# exam (again) | at home
+2019-01-01T00:00:00 | C# exam (again) | at home
+2019-01-01T00:00:00 | C# exam (again) | at home
+2019-01-01T00:00:00 | C# exam (again) | at home
+2019-01-01T00:00:00 | Chalga party | Varna
+2019-01-01T00:00:00 | Chalga party | Varna
+2019-01-01T00:00:00 | Chalga party | Varna
