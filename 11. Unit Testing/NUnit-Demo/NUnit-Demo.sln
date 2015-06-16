@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{699DF7FD-A37E-44BE-ADC0-7A5D9EAB8F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBank", "TestBank\TestBank.csproj", "{EBE4244D-3747-4827-9668-F98C15CE7B29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{699DF7FD-A37E-44BE-ADC0-7A5D9EAB8F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699DF7FD-A37E-44BE-ADC0-7A5D9EAB8F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699DF7FD-A37E-44BE-ADC0-7A5D9EAB8F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699DF7FD-A37E-44BE-ADC0-7A5D9EAB8F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE4244D-3747-4827-9668-F98C15CE7B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE4244D-3747-4827-9668-F98C15CE7B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE4244D-3747-4827-9668-F98C15CE7B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE4244D-3747-4827-9668-F98C15CE7B29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
