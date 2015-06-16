@@ -1,0 +1,41 @@
+Design pattern: Simple Factory
+	* 
+
+Design pattern: Strategy
+	* 
+
+Design pattern: Template Method
+	* 
+
+Design pattern: Abstract factory
+	* 
+
+Design pattern: Composite
+	* 
+
+Design pattern: Mediator
+	* 
+
+Found bottlenecks:
+	* 
+	* 
+
+Found bugs:
+	* 
+	* 
+	* 
+
+Single responsibility principle
+	* 
+
+Open/closed principle
+	* 
+
+Liskov substitution principle
+	* 
+
+Interface segregation principle
+	* 
+
+Dependency inversion principle
+	* 
