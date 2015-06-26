@@ -37,6 +37,7 @@ In order to ensure the high quality of the assigned project you need to fulfill 
     -   Redesign the project to fulfil the [SOLID](http://en.wikipedia.org/wiki/Solid) and [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself) principles – each principle should be implemented at least once
 4.  **Design and implement unit tests** covering the entire project functionality. To ensure the project works correctly according to the requirements and behaves correctly in all possible use cases, design and implement unit tests that cover all use cases and the entire program logic. If needed, first redesign the program logic to **make the code testable**. Test the normal expected behavior (correct data) and possible expected failures (incorrect data). Put special attention to the border cases. The code coverage of the unit tests should be at least 90%. Use unit testing framework of your choice (e.g. Visual Studio Team Test, NUnit, MbUnit or other).
 5.  **Document the refactorings** you have performed in order to improve the quality of the project. Use English language and follow the sample (see below). The documentation must be in `.md` (GitHub Markdown) format.
+6.	**Add new functionality** to the game. The more functionality you add the more points you will get. Follow all principles and unit test you new game functionalities.
 
 Deliverables
 ------------
@@ -108,4 +109,4 @@ Sample Refactoring Documentation for Project “Game 15”
 5.  Extracted the method `GenerateRandomGame()` from the method `Main()`.
 6.  Introduced class `ScoreBoard` and moved all related functionality in it.
 7.  Moved method `GenerateRandomNumber(int start, int end)` to separate class `RandomUtils`.
-8.  …                                                                                                                                                                            |
+8.  …
