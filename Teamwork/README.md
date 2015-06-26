@@ -74,14 +74,15 @@ Sample Refactoring Documentation for Project “Game 15”
 ------------------------------------------------------
 
 1.  Redesigned the project structure: Team “…”
-	-   Renamed the project to **Game-15**.
-	-   Renamed the main class **Program** to **GameFifteen**.
-	-   Extracted each class in a separate file with a good name: **GameFifteen.cs**, **Board.cs**, **Point.cs**.
+	-   Renamed the project to `Game-15`.
+	-   Renamed the main class `Program` to `GameFifteen`.
+	-   Extracted each class in a separate file with a good name: `GameFifteen.cs`, `Board.cs`, `Point.cs`.
 	-   …
 2.  Reformatted the source code:
 	-   Removed all unneeded empty lines, e.g. in the method `PlayGame()`.
 	-   Inserted empty lines between the methods.
 	-   Split the lines containing several statements into several simple lines, e.g.:
+	
 	Before:
 	
 		if (input\[i\] != ' ') break;
@@ -96,7 +97,7 @@ Sample Refactoring Documentation for Project “Game 15”
 	-   Formatted the curly braces **{** and **}** according to the best practices for the C\# language.
 	-   Put **{** and **}** after all conditionals and loops (when missing).
 	-   Character casing: variables and fields made **camelCase**; types and methods made **PascalCase**.
-	-   Formatted all other elements of the source code according to the best practices introduced in the course “[High-Quality Programming Code](http://codecourse.telerik.com/)”.
+	-   Formatted all other elements of the source code according to the best practices introduced in the course “[High-Quality Programming Code](http://telerikacademy.com/Courses/Courses/Details/244)”.
 	-   …
 3.  Renamed variables:
 	-   In class `Fifteen`: `number` to `numberOfMoves`.
