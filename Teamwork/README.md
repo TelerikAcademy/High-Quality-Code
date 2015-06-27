@@ -39,7 +39,11 @@ In order to ensure the high quality of the assigned project you need to fulfill 
 4.  **Design and implement unit tests** covering the entire project functionality. To ensure the project works correctly according to the requirements and behaves correctly in all possible use cases, design and implement unit tests that cover all use cases and the entire program logic. If needed, first redesign the program logic to **make the code testable**. Test the normal expected behavior (correct data) and possible expected failures (incorrect data). Put special attention to the border cases.
 	-	The code coverage of the unit tests should be at least 90%.
 	-	Use unit testing framework of your choice (e.g. Visual Studio Team Test, NUnit, MbUnit or other).
-5.  **Document the refactorings** you have performed in order to improve the quality of the project. Use English language and follow the sample (see below). The documentation must be in `.md` (GitHub Markdown) format.
+    -   At least 10 of your tests should use **mocking** (Moq, JustMock or other).
+5.  Documentation and comments
+    -   **Document the refactorings** you have performed in order to improve the quality of the project. Use English language and follow the sample (see below). The documentation must be in `.md` (GitHub Markdown) format.
+    -   Document all public members and classes using **XML documentation** within the code and generate **CHM documentation**.
+    -   Add **code comments** where appropriate
 6.	**Add new functionalities** to the game. The more functionalities you add the more points you will get.
 	-	Follow all principles and unit test you new game functionalities.
 
@@ -56,7 +60,7 @@ Team Work Requirements
 
 -   Obligatory use **Git** as source code repository and **GitHub** (<http://github.com>) as project hosting and team collaboration environment. SVN or TFS are **not** allowed for this project.
 	-	Take advantage of the GitHub issues for project management
--   **Each team member** should have contributions to the project and **commits in the source control repository in 3 different days**. We acknowledge that this requirement seems a bit unnatural, but we want to track **how the team collaborates over the time** and that the **project is developed incrementally**, not in the “last minute”.
+-   **Each team member** should have contributions to the project and **commits in the source control repository in 7 different days**. We acknowledge that this requirement seems a bit unnatural, but we want to track **how the team collaborates over the time** and that the **project is developed incrementally**, not in the “last minute”.
 
 Other Requirements
 ------------------
