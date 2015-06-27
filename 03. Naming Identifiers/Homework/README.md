@@ -2,7 +2,7 @@
 # Naming Identifiers Homework
 ## Homework
 
-### Task 1. class_123 in C#
+### Task 1. class_123 in C\#
 *	Refactor the following examples to produce code with well-named C# identifiers.
 
 		class class_123
@@ -24,7 +24,7 @@
 		  }
 		}
 
-### Task 2. Make_Чуек in C#
+### Task 2. Make_Чуек in C\#
 *	Refactor the following examples to produce code with well-named C# identifiers.
 
 		class Hauptklasse
