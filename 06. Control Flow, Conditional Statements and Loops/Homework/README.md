@@ -79,6 +79,6 @@ and
         Console.WriteLine("Value Found");
     }
 
-## Task 4(*). Refactor your C# 1 exam solutions
+## Task 4*. Refactor your C# 1 exam solutions
 
 *   Using best practices for Variables, Data, Expressions, Constants, Control Flow, Conditional Statements and Loops refactor all your solutions sent during the first C# practical exam this year
