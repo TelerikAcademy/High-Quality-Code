@@ -1,6 +1,6 @@
 # High-quality Methods Homework
 
-## Task 1. Class Chef in C&#35;
+## Task 1. Quality Methods
 *	Take the VS solution `Methods` and refactor its code to follow the guidelines of high-quality methods.
 *	Ensure:
 	*	you handle errors correctly
