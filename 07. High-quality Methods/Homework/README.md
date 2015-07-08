@@ -8,3 +8,6 @@
 	*	good cohesion and coupling
 	*	good naming
 	*	no side effects, etc.
+
+## Task 2. Refactor your C# 2 exam solutions
+*	Using best practices learned so far refactor all your solutions sent during the second C# practical exam this year
