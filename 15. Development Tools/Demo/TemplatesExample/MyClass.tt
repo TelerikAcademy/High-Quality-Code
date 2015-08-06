@@ -1,0 +1,15 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+public class MyClass
+{
+<# for(int i = 0; i < 6; i++) { #>
+    public int Item<#=i#> { get; set; }
+
+<# } #>
+    public void Method()
+    {
+    }
+}

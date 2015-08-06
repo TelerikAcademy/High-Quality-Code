@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" ?>
+<project>
+	<file>App.config</file>
+	<file>Data.cs</file>
+	<file>Data.tt</file>
+	<file>MyClass.cs</file>
+	<file>MyClass.tt</file>
+	<file>Program.cs</file>
+	<file>TemplatesExample.csproj</file>
+</project>

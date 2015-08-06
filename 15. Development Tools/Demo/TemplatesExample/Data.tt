@@ -1,0 +1,14 @@
+﻿<#@ template language="C#" hostspecific="true" #>
+<#@ output extension=".xml" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="Microsoft.VisualStudio.TextTemplating" #>
+<?xml version="1.0" ?>
+<project>
+<#  string currentDir = this.Host.ResolvePath(".");
+    foreach (string dir in Directory.GetFiles(currentDir))
+    {
+        FileInfo fileInfo = new FileInfo(dir);
+#>
+	<file><#= fileInfo.Name #></file>
+<#  } #>
+</project>
