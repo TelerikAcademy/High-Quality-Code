@@ -4,6 +4,21 @@ using NUnit.Framework;
 [TestFixture, Explicit]
 public class TestBank
 {
+    [SetUp]
+    [Ignore]
+    public void InitBeforeEachTest()
+    {
+        // TODO: to be implemented, remove ignore attribute
+    }
+
+    [TearDown]
+    [Ignore]
+    public void DisposeAfterEachTest()
+    {
+        // TODO: to be implemented, remove ignore attribute
+    }
+	
+	
     [TestFixtureSetUp]
     [Ignore]
     public void Init()
