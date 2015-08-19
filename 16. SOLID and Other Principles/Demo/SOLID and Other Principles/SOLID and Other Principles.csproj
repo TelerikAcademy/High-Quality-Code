@@ -108,6 +108,9 @@
     <Compile Include="3. Liskov Substitution\3. Before - Movement\MovableObject.cs" />
     <Compile Include="3. Liskov Substitution\3. Before - Movement\RotatableObject.cs" />
     <Compile Include="3. Liskov Substitution\3. Before - Movement\TranslatableObject.cs" />
+    <Compile Include="3. Liskov Substitution\VirtualCallInConstructor\BaseClass.cs" />
+    <Compile Include="3. Liskov Substitution\VirtualCallInConstructor\BaseClassImpl.cs" />
+    <Compile Include="3. Liskov Substitution\VirtualCallInConstructor\DatabaseRepository.cs" />
     <Compile Include="4. Interface Segregation\1. Worker - After\Contracts\IEater.cs" />
     <Compile Include="4. Interface Segregation\1. Worker - After\Contracts\ISleeper.cs" />
     <Compile Include="4. Interface Segregation\1. Worker - After\Contracts\IWorker.cs" />
