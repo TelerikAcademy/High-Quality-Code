@@ -1,6 +1,5 @@
 ﻿namespace NinjectIoCContainer
 {
-    using System;
     using System.Reflection;
 
     using Ninject;

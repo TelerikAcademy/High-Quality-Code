@@ -1,7 +1,5 @@
 ﻿namespace LiskovSubstitutionMovementAfter
 {
-    using System;
-
     using LiskovSubstitutionMovementAfter.Contracts;
 
     public abstract class TranslatableObject : ITranslatable

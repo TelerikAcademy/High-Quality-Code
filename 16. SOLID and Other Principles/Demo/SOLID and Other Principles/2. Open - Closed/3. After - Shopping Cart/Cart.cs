@@ -33,7 +33,7 @@
         public decimal TotalAmount()
         {
             decimal total = 0m;
-            foreach (OrderItem orderItem in this.Items)
+            foreach (var orderItem in this.Items)
             {
                 total += this.pricingCalculator.CalculatePrice(orderItem);
                 

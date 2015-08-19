@@ -8,7 +8,7 @@
 
         public override string ToString()
         {
-            return base.ToString() + "; Documents: " + this.Documents.ToString();
+            return base.ToString() + "; Documents: " + this.Documents;
         }
     }
 }

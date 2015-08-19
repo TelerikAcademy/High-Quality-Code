@@ -24,7 +24,7 @@
 
         string Umbrella { get; }
 
-        string GPS { get; }
+        string Gps { get; }
 
         int Mirrors { get; }
 

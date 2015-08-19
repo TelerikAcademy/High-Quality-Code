@@ -9,11 +9,13 @@
 
         public PricingCalculator()
         {
-            this.pricingRules = new List<IPriceRule>();
-            this.pricingRules.Add(new EachPriceRule());
-            this.pricingRules.Add(new PerGramPriceRule());
-            this.pricingRules.Add(new SpecialPriceRule());
-            this.pricingRules.Add(new Buy4GetOneFree());
+            this.pricingRules = new List<IPriceRule>
+                                    {
+                                        new EachPriceRule(),
+                                        new PerGramPriceRule(),
+                                        new SpecialPriceRule(),
+                                        new Buy4GetOneFree()
+                                    };
         }
 
         public decimal CalculatePrice(OrderItem item)
