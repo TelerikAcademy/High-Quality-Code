@@ -2,29 +2,9 @@
 {
     public class OnlineOrder : Order
     {
-        private readonly INotificationService notificationService;
-        private readonly PaymentDetails paymentDetails;
-        private readonly IPaymentProcessor paymentProcessor;
-        private readonly IReservationService reservationService;
-
-        public OnlineOrder(Cart cart, PaymentDetails paymentDetails)
+        public OnlineOrder(Cart cart)
             : base(cart)
         {
-            this.paymentDetails = paymentDetails;
-            this.paymentProcessor = new PaymentProcessor();
-            this.reservationService = new ReservationService();
-            this.notificationService = new NotificationService();
-        }
-
-        public override void Checkout()
-        {
-            this.paymentProcessor.ProcessCreditCard(this.paymentDetails, this.Cart.TotalAmount());
-
-            this.reservationService.ReserveInventory(this.Cart.Items);
-
-            this.notificationService.NotifyCustomerOrderCreated(this.Cart);
-
-            base.Checkout();
         }
     }
 }
