@@ -2,9 +2,9 @@
 {
     public class Progress
     {
-        private File file;
+        private readonly File file;
 
-        // if we want to stream a Music file, we cannot
+        // If we want to stream a music file, we cannot
         public Progress(File file)
         {
             this.file = file;

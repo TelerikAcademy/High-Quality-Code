@@ -1,5 +1,6 @@
 ﻿namespace KISSMp3MoverBefore
 {
+    using System;
     using System.IO;
 
     using KISSMp3MoverBefore.Contracts;
@@ -40,7 +41,7 @@
                 if (this.SelectStrategy.CanBeSelected(fileName))
                 {
                     this.RenameStrategy.Rename(fileName);
-                    var artist = fileName.Substring(0, fileName.IndexOf(" - "));
+                    var artist = fileName.Substring(0, fileName.IndexOf(" - ", StringComparison.Ordinal));
                     this.MoveStrategy.Move(fileName, artist + "/" + fileName);
                 }
             }

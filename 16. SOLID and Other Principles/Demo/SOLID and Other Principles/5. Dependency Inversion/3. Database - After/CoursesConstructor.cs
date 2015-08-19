@@ -4,7 +4,7 @@
 
     public class CoursesConstructor
     {
-        private ICourseData data;
+        private readonly ICourseData data;
 
         // poor man's IoC container
         public CoursesConstructor()

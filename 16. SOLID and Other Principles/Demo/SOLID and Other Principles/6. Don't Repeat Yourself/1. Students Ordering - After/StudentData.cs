@@ -6,7 +6,7 @@
 
     public class StudentData
     {
-        private IEnumerable<Student> students;
+        private readonly IEnumerable<Student> students;
 
         public StudentData()
         {
