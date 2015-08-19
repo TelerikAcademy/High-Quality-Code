@@ -4,7 +4,7 @@
 
     public class Manager
     {
-        private IWorker worker;
+        private readonly IWorker worker;
 
         public Manager(IWorker worker)
         {

@@ -4,7 +4,7 @@
 
     public class Progress
     {
-        private IResult result;
+        private readonly IResult result;
 
         public Progress(IResult result)
         {

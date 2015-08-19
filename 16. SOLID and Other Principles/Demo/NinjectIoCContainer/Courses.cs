@@ -7,7 +7,7 @@
 
     public class Courses
     {
-        private ICourseData data;
+        private readonly ICourseData data;
 
         public Courses(ICourseData data)
         {

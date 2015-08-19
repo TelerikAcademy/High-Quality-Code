@@ -1,5 +1,6 @@
 ﻿namespace KISSMp3MoverBefore.Strategies.RenameStrategies
 {
+    using System;
     using System.IO;
     using KISSMp3MoverBefore.Contracts;
 
@@ -7,7 +8,7 @@
     {
         public void Rename(string fileName)
         {
-            File.Move(fileName, fileName.Substring(fileName.IndexOf(" - ") + 3));
+            File.Move(fileName, fileName.Substring(fileName.IndexOf(" - ", StringComparison.Ordinal) + 3));
         }
     }
 }

@@ -4,7 +4,7 @@
 
     public class AccountContoller
     {
-        private IAccount manager;
+        private readonly IAccount manager;
 
         public AccountContoller(IAccount manager)
         {

@@ -4,7 +4,7 @@
 
     public class DetailsPrinter
     {
-        private IEnumerable<Employee> employees;
+        private readonly IEnumerable<Employee> employees;
 
         public DetailsPrinter(IEnumerable<Employee> employees)
         {
