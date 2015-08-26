@@ -41,13 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CarBuilder.cs" />
-    <Compile Include="MotorCycleBuilder.cs" />
+    <Compile Include="Builders\CarBuilder.cs" />
+    <Compile Include="Directors\IVehicleConstructor.cs" />
+    <Compile Include="Builders\MotorCycleBuilder.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ScooterBuilder.cs" />
-    <Compile Include="VehicleConstructor.cs" />
+    <Compile Include="Builders\ScooterBuilder.cs" />
+    <Compile Include="Directors\VehicleConstructor.cs" />
     <Compile Include="Vehicle.cs" />
-    <Compile Include="VehicleBuilder.cs" />
+    <Compile Include="Builders\VehicleBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

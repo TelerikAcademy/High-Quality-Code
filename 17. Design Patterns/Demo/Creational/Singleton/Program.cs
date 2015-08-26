@@ -13,7 +13,7 @@
 
             log.PrintLog();
 
-            // Parallel.For(0, 6, (x) => { Logger.Instance.SaveToLog(x.ToString()); });
+            // Parallel.For(0, 6, x => { Logger.Instance.SaveToLog(x.ToString()); });
             // Logger.Instance.PrintLog();
         }
     }

@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
 
+    // Do not use! Not thread-safe.
     public sealed class Logger
     {
         private static Logger loggerInstance;

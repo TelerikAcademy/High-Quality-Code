@@ -1,4 +1,4 @@
-﻿namespace Builder
+﻿namespace Builder.Builders
 {
     /// <summary>
     /// The 'Builder' abstract class

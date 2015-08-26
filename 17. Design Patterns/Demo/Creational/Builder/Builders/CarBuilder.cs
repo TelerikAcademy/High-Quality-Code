@@ -1,33 +1,33 @@
-﻿namespace Builder
+﻿namespace Builder.Builders
 {
     /// <summary>
     /// The 'ConcreteBuilder' class
     /// </summary>
-    public class ScooterBuilder : VehicleBuilder
+    public class CarBuilder : VehicleBuilder
     {
-        public ScooterBuilder()
+        public CarBuilder()
         {
-            this.Vehicle = new Vehicle("Scooter");
+            this.Vehicle = new Vehicle("Car");
         }
 
         public override void BuildFrame()
         {
-            this.Vehicle["frame"] = "Scooter Frame";
+            this.Vehicle["frame"] = "Car Frame";
         }
 
         public override void BuildEngine()
         {
-            this.Vehicle["engine"] = "50 cc";
+            this.Vehicle["engine"] = "2500 cc";
         }
 
         public override void BuildWheels()
         {
-            this.Vehicle["wheels"] = "2";
+            this.Vehicle["wheels"] = "4";
         }
 
         public override void BuildDoors()
         {
-            this.Vehicle["doors"] = "0";
+            this.Vehicle["doors"] = "4";
         }
     }
 }

@@ -17,7 +17,9 @@
             Console.WriteLine(new string('-', 60));
 
             var factoryClassName = ConfigurationManager.AppSettings["ManufacturerFactory"];
-            var manufacturer = Assembly.GetExecutingAssembly().CreateInstance(factoryClassName) as Manufacturer;
+            var manufacturer =
+                Assembly.GetExecutingAssembly()
+                .CreateInstance(factoryClassName) as Manufacturer;
             WorkWithPhone(manufacturer);
             Console.WriteLine(new string('-', 60));
         }

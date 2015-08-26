@@ -8,8 +8,8 @@
             this.CoffeeContent = coffee;
         }
 
-        public int MilkContent { get; set; }
+        public int MilkContent { get; private set; }
 
-        public int CoffeeContent { get; set; }
+        public int CoffeeContent { get; private set; }
     }
 }

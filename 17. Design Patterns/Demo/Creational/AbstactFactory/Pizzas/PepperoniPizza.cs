@@ -12,7 +12,7 @@
             this.madeBy = madeBy;
         }
 
-        public override string Name
+        protected override string Name
         {
             get
             {
