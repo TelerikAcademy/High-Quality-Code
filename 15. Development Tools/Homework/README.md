@@ -4,7 +4,7 @@
     *   One source control system (TFS, SVN or Git)
     *   log4net
     *   StyleCop or JustCode
-    *   JustDecompile ot ILSpy
+    *   JustDecompile or ILSpy
     *   Sandcastle or Doxygen
     *   Some obfuscation tool of your choice
 1.  Write a simple T4 template of your choice
