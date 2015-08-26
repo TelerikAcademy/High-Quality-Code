@@ -1,6 +1,6 @@
-# Creational Patterns Homework
+# Behavioral Patterns Homework
 
-*   Select 3 creational design patterns
+*   Select 3 behavioral design patterns
     *   Write a short description (about half page) for each of them
         *   Describe their motivation, intent, applicability, known uses, implementation, participants, consequences, structure, related patterns, etc.
         *   Use [Markdown](https://help.github.com/articles/github-flavored-markdown/) for the description (`.md` files) and upload it on your own GitHub
