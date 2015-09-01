@@ -16,23 +16,23 @@
         private static void FlyweightDemo()
         {
             // Build a document with text
-            const string Document = "AAZZBBZB";
-            var chars = Document.ToCharArray();
+            const string Document = "AAZZABBZZBAB";
 
-            var factory = new CharacterFactory();
+            var characterFactory = new CharacterFactory();
 
             // extrinsic state
-            int pointSize = 10;
+            var pointSize = 10;
 
             // For each character use a flyweight object
-            foreach (char c in chars)
+            foreach (var c in Document)
             {
                 pointSize++;
-                var character = factory.GetCharacter(c);
+                var character = characterFactory.GetCharacter(c);
                 character.Display(pointSize);
             }
 
-            Console.WriteLine("Number of objects: {0}", factory.NumberOfObjects);
+            Console.WriteLine("Total number of character objects: {0}",
+                characterFactory.NumberOfObjects);
         }
 
         private static void StringsDemo()
