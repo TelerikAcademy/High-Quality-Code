@@ -15,8 +15,6 @@
 
         protected int Descent { get; set; }
 
-        protected int PointSize { get; set; }
-
         public abstract void Display(int pointSize);
     }
 }

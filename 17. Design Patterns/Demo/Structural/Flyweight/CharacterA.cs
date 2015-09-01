@@ -18,8 +18,7 @@
 
         public override void Display(int pointSize)
         {
-            this.PointSize = pointSize;
-            Console.WriteLine("{0} (point size {1})", this.Symbol, this.PointSize);
+            Console.WriteLine("{0} (point size {1})", this.Symbol, pointSize);
         }
     }
 }
