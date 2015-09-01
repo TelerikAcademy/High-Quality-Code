@@ -9,6 +9,7 @@
     /// requested from the pool and are still in use. The pool also ensures that objects that have been released
     /// are returned to a suitable state, ready for the next time they are requested.
     /// </summary>
+    /// <typeparam name="T">The pool objects type.</typeparam>
     public class Warehouse<T> where T : IDisposable, new()
     {
         private readonly List<T> availableEquipment = new List<T>();

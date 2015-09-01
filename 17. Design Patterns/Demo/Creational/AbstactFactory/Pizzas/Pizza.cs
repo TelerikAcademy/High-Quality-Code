@@ -12,6 +12,8 @@
             this.ingredients = new List<string>(ingredients);
         }
 
+        protected abstract string Name { get; }
+
         private IEnumerable<string> Ingredients
         {
             get
@@ -19,8 +21,6 @@
                 return this.ingredients;
             }
         }
-
-        protected abstract string Name { get; }
 
         public override string ToString()
         {

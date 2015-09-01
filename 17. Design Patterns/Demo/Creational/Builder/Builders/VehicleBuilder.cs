@@ -8,7 +8,7 @@
     public abstract class VehicleBuilder
     {
         /// <summary>
-        /// Provides an interface for retrieving the product
+        /// Gets or sets interface for retrieving the product
         /// </summary>
         public Vehicle Vehicle { get; set; }
 

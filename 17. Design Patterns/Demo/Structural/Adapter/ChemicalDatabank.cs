@@ -1,7 +1,7 @@
 ﻿namespace Adapter
 {
     /// <summary>
-    /// The 'Adaptee' class
+    /// The class that will be converted to another class using a so-called adapter class.
     /// </summary>
     internal class ChemicalDatabank
     {

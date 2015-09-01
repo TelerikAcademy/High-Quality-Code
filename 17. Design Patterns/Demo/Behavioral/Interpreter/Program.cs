@@ -38,9 +38,7 @@
             Console.WriteLine("Final: {0} = {1}", Input, context.Output);
         }
 
-        /// <remarks>
-        /// Also called Prefix notation
-        /// </remarks>
+        // Also called Prefix notation
         private static void PolishNotationExample()
         {
             var parser = new PolishNotationParser();

@@ -3,7 +3,7 @@
     using System;
 
     /// <summary>
-    /// Facade
+    /// The Facade
     /// </summary>
     public class HomeTheaterPro
     {
