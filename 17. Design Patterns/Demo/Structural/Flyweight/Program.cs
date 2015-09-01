@@ -31,7 +31,8 @@
                 character.Display(pointSize);
             }
 
-            Console.WriteLine("Total number of character objects: {0}",
+            Console.WriteLine(
+                "Total number of character objects: {0}",
                 characterFactory.NumberOfObjects);
         }
 
