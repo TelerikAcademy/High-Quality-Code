@@ -15,8 +15,11 @@
             Console.WriteLine(new string('-', 60));
 
             var customer = new Customer();
-            customer.FirstName("Nikolay").LastName("Kostov")
-                .Gender("Male").Address("Sofia")
+            customer
+                .FirstName("Nikolay")
+                .LastName("Kostov")
+                .Gender("Male")
+                .Address("Sofia")
                 .PrintToConsole();
         }
     }

@@ -10,7 +10,7 @@
             this.LibraryItem = libraryItem;
         }
 
-        protected LibraryItem LibraryItem { get; set; }
+        protected LibraryItem LibraryItem { get; private set; }
 
         public override void Display()
         {
