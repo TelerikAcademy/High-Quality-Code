@@ -8,7 +8,7 @@
     public abstract class Participant
     {
         private readonly string name;
-        private ChatRoom chatRoom;
+        private AbstractChatRoom chatRoom;
 
         protected Participant(string name)
         {
@@ -20,7 +20,7 @@
             get { return this.name; }
         }
 
-        public ChatRoom ChatRoom
+        public AbstractChatRoom ChatRoom
         {
             get { return this.chatRoom; }
             set { this.chatRoom = value; }
