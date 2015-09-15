@@ -9,10 +9,6 @@
 
         protected string Name { get; private set; }
 
-        public abstract void Add(PersonComponent page);
-
-        public abstract void Remove(PersonComponent page);
-
         public abstract void Display(int depth);
     }
 }
