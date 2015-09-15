@@ -9,16 +9,6 @@
         {
         }
 
-        public override void Add(PersonComponent page)
-        {
-            Console.WriteLine("Cannot add to a person");
-        }
-
-        public override void Remove(PersonComponent page)
-        {
-            Console.WriteLine("Cannot remove from a person");
-        }
-
         public override void Display(int depth)
         {
             Console.WriteLine(new string('-', depth) + this.Name);

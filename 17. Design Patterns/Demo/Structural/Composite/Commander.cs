@@ -13,12 +13,12 @@
             this.subjects = new List<PersonComponent>();
         }
 
-        public override void Add(PersonComponent person)
+        public void Add(PersonComponent person)
         {
             this.subjects.Add(person);
         }
 
-        public override void Remove(PersonComponent person)
+        public void Remove(PersonComponent person)
         {
             this.subjects.Remove(person);
         }
