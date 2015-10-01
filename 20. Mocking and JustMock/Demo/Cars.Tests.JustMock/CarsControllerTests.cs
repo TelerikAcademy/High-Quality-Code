@@ -1,26 +1,28 @@
 ﻿namespace Cars.Tests.JustMock
 {
     using System;
+    using System.Collections.Generic;
+
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     using Cars.Contracts;
     using Cars.Tests.JustMock.Mocks;
     using Cars.Controllers;
-    using System.Collections.Generic;
     using Cars.Models;
-
-
+    
     [TestClass]
     public class CarsControllerTests
     {
-        private ICarsRepository carsData;
+        private readonly ICarsRepository carsData;
         private CarsController controller;
 
         public CarsControllerTests()
             : this(new JustMockCarsRepository())
+            // : this(new MoqCarsRepository())
         {
         }
 
-        public CarsControllerTests(ICarsRepositoryMock carsDataMock)
+        private CarsControllerTests(ICarsRepositoryMock carsDataMock)
         {
             this.carsData = carsDataMock.CarsData;
         }
@@ -91,7 +93,7 @@
 
             Assert.AreEqual(1, model.Id);
             Assert.AreEqual("Audi", model.Make);
-            Assert.AreEqual("A4", model.Model);
+            Assert.AreEqual("A5", model.Model);
             Assert.AreEqual(2005, model.Year);
         }
 
