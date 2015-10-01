@@ -1,8 +1,10 @@
 ﻿namespace Cars.Tests.JustMock.Mocks
 {
+    using System.Linq;
+
     using Cars.Contracts;
     using Cars.Models;
-    using System.Linq;
+
     using Telerik.JustMock;
 
     public class JustMockCarsRepository : CarRepositoryMock, ICarsRepositoryMock

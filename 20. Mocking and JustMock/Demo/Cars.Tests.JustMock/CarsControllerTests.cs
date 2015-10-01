@@ -1,7 +1,6 @@
 ﻿namespace Cars.Tests.JustMock
 {
     using System;
-    using System.Linq;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Cars.Contracts;
     using Cars.Tests.JustMock.Mocks;

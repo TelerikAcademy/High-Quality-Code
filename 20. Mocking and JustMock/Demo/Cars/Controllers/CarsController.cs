@@ -1,14 +1,16 @@
 ﻿namespace Cars.Controllers
 {
-    using Cars.Contracts;
-    using Cars.Infrastructure;
-    using Cars.Models;
     using System;
     using System.Collections.Generic;
 
+    using Cars.Contracts;
+    using Cars.Data;
+    using Cars.Infrastructure;
+    using Cars.Models;
+
     public class CarsController
     {
-        private ICarsRepository carsData;
+        private readonly ICarsRepository carsData;
 
         public CarsController()
             : this(new CarsRepository())
@@ -30,12 +32,12 @@
         {
             if (car == null)
             {
-                throw new ArgumentNullException("Car cannot be null");
+                throw new ArgumentNullException("car", "Car cannot be null");
             }
 
             if (string.IsNullOrEmpty(car.Make) || string.IsNullOrEmpty(car.Model))
             {
-                throw new ArgumentNullException("Car make and model cannot be empty");
+                throw new ArgumentNullException("car", "Car make and model cannot be empty");
             }
 
             this.carsData.Add(car);
@@ -48,7 +50,7 @@
 
             if (car == null)
             {
-                throw new ArgumentNullException("Car could not be found");
+                throw new ArgumentNullException("car", "Car could not be found");
             }
 
             return new View(car);
@@ -68,7 +70,7 @@
             {
                 case "make": result = this.carsData.SortedByMake(); break;
                 case "year": result = this.carsData.SortedByYear(); break;
-                default: throw new ArgumentException("Invalid sorting parameter");
+                default: throw new ArgumentException("Invalid sorting parameter", "parameter");
             }
 
             return new View(result);

@@ -1,10 +1,11 @@
-﻿namespace Cars
+﻿namespace Cars.Data
 {
-    using Cars.Contracts;
-    using Cars.Models;
     using System;
     using System.Collections.Generic;
     using System.Linq;
+
+    using Cars.Contracts;
+    using Cars.Models;
 
     public class CarsRepository : ICarsRepository
     {
