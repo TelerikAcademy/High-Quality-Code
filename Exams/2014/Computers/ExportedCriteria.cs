@@ -8,7 +8,6 @@
         {
             return new List<Criteria>
             {
-                // Kriterii bez opcii izpolzvame za title (6te go napravim po-umno kato imame vreme)
                 new Criteria("Refactoring (16)", "", new List<Option>()),
                 new Criteria("Основните класове на проекта (Ram, Cpu, Motherboard, etc.) са изнесени в отделна библиотека/проект", 
                     "Computers.Common, Computers.Core или друго добре подбрано име", new List<Option>
@@ -131,6 +130,7 @@
                         new Option("Частично (0.25)", 0.25m),
                         new Option("Не (0)", 0),
                     }),
+                    
                 new Criteria("StyleCop (8)", "", new List<Option>()),
                 new Criteria("Колко предупреждения дава StyleCop", 
                     "На всички файлове, освен на Unit Test-овете", new List<Option>
@@ -145,6 +145,7 @@
                         new Option("между 30 и 39 предупреждения, включително (1)", 1),
                         new Option("40 и повече предупреждения (0)", 0),
                     }),
+                    
                 new Criteria("Design Patterns (22)", "", new List<Option>()),
                 new Criteria("Използван патърн Simple Factory", 
                     "Например за производителите или за Abstract Factory-та", new List<Option>
@@ -188,6 +189,7 @@
                         new Option("Частично (2.5)", 2.5m),
                         new Option("Не (0)", 0),
                     }),
+                    
                  new Criteria("Unit Testing (12)", "", new List<Option>()),
                  new Criteria("LaptopBattery.Charge - тест за първоначален заряд на батерията (ако не я зареждаме въобще)", 
                     "Незареждана батерия има 50% заряд", new List<Option>
@@ -291,6 +293,7 @@
                         new Option("Да (1)", 1),
                         new Option("Не (0)", 0),
                     }),
+                    
                  new Criteria("Code Documentation (6)", "", new List<Option>()),
                  new Criteria("Документиран ли е IMotherboard интерфейса", 
                     "Без правописни грешки, с ясен текст и добър английски език", new List<Option>
@@ -320,6 +323,7 @@
                         new Option("Да, но може и по-добре (1)", 1),
                         new Option("Не (0)", 0),
                     }),
+                    
                 new Criteria("Bottlenecks (6)", "", new List<Option>()),
                 new Criteria("При генериране на рандом число - да се извиква random.Next директно с границите", 
                     "Вместо да се налучква число в интервала", new List<Option>
@@ -335,6 +339,7 @@
                         new Option("Описан и неоправен, оправен и неописан или частично описан / оправен (1.5)", 1.5m),
                         new Option("Неописан и неоправен (ненамерен) (0)", 0),
                     }),
+                    
                 new Criteria("Bug Fixing (10)", "", new List<Option>()),
                 new Criteria("Липсващ % при изписването на заряд в батерията", 
                     "Не изписва съобщението вярно", new List<Option>
@@ -375,6 +380,7 @@
                         new Option("Да (1)", 1),
                         new Option("Не (0)", 0),
                     }),
+                    
                 new Criteria("New Features (10)", "", new List<Option>()),
                 new Criteria("Имплементиран ли е 128-битов процесор",
                     "", new List<Option>
@@ -416,6 +422,7 @@
                         new Option("Да (2)", 2),
                         new Option("Не (0)", 0),
                     }),
+                    
                 new Criteria("SOLID (10)", "", new List<Option>()),
                 new Criteria("Single Responsibility принцип",
                     "Всеки клас има само една причина за промяна", new List<Option>
